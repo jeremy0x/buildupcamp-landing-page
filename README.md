@@ -1,3 +1,3 @@
-## Buildup Camp Landing Page
+## Buildupcamp Landing Page
 
-A sample landing page for buildup camp.
+A sample landing page for buildupcamp.
