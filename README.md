@@ -1,2 +1,3 @@
-# buildup-bootcamp-landing-page
-A sample landing page for buildup bootcamp.
+# Buildup Camp Landing Page
+
+A sample landing page for buildup camp.
