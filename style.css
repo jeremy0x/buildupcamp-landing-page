@@ -16,6 +16,14 @@
   margin-top: 50px;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.border-top {
+  border-top: 1px solid #e6e6e6;
+}
+
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -62,6 +70,23 @@ nav {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+
+  .hero-section .hero-left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .hero-section .hero-right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .programs-section {
   text-align: center;
 }
@@ -70,4 +95,17 @@ nav {
   font-size: 2rem;
   font-weight: 300;
   line-height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .programs-section {
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+  .programs-section h2 {
+    font-size: 1.7rem;
+  }
+  .programs-section p {
+    font-size: 1rem;
+  }
 }
