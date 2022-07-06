@@ -1,7 +1,8 @@
 :root {
   --black: #1a1b20;
   --white: #e6e6e6;
-  --very-light-yellow: hsla(49, 100%, 70%, 0.5);
+  --cobalt-blue: hsla(212, 100%, 79%, 0.363);
+  --light-blue: #77bbbb;
 }
 
 * {
@@ -11,15 +12,7 @@
 }
 
 .mb-24 {
-  margin-bottom: 24px;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-.mt-50 {
-  margin-top: 50px;
+  margin-bottom: 24px !important;
 }
 
 .border-bottom {
@@ -31,6 +24,7 @@
 }
 
 body {
+  position: relative;
   font-size: 16px;
   line-height: 1.5;
   color: #2e3d49;
@@ -38,7 +32,38 @@ body {
   margin: 1rem 0;
   font-family: 'Open Sans', sans-serif !important;
   height: 100%;
-  background-color: var(--very-light-yellow) !important;
+  background-color: var(--cobalt-blue) !important;
+  background-image: url(https://raw.githubusercontent.com/jeremiey/huddle-landing-page-zuri/4e2a71e8ed3847d3245d24874aa7d08bdcb26a47/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 0.5s ease-in-out;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    background-image: url(https://raw.githubusercontent.com/jeremiey/huddle-landing-page-zuri/4e2a71e8ed3847d3245d24874aa7d08bdcb26a47/images/bg-hero-mobile.svg);
+  }
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .sections {
+    text-align: left;
+    padding: 1rem 2rem;
+  }
 }
 
 /* nav bar */
@@ -112,37 +137,29 @@ nav .logo img {
 }
 
 /* program details section */
-.programs-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 2rem;
-}
-
-.programs-section .programs-section-header {
+.sections-header {
   text-align: center;
 }
 
-.programs-section .programs-section-header h2 {
+.sections .sections-header h2 {
   font-size: 2rem;
   font-weight: 300;
   line-height: 48px;
 }
 
-.programs-section .programs-section-header p {
+.sections .sections-header p {
   max-width: 600px;
 }
 
 @media screen and (max-width: 768px) {
-  .programs-section {
+  .sections {
     text-align: left;
     padding: 1rem 2rem;
   }
-  .programs-section h2 {
+  .sections h2 {
     font-size: 1.7rem;
   }
-  .programs-section .programs-section-header p {
+  .sections .sections-header p {
     font-size: 1rem;
   }
 }
@@ -170,6 +187,12 @@ nav .logo img {
   transition: all 0.3s ease-in-out;
 }
 
+.programs-section .course-cards .course-card-footer .btn {
+  color: var(--black);
+  background-color: var(--light-blue);
+  transition: all 0.3s ease-in-out !important;
+}
+
 @media screen and (max-width: 768px) {
   .programs-section .course-cards .course-card {
     padding: 2rem 1.5rem;
@@ -177,5 +200,65 @@ nav .logo img {
 
   .programs-section .course-cards .course-card:nth-child(2n) {
     margin-left: 0;
+  }
+}
+
+/* Clients/Sponsors Section */
+.clients-section .interllo-clients {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.clients-section .interllo-clients img {
+  width: 20%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  filter: invert(1);
+}
+
+/* Support details section */
+.support-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 100%;
+  text-align: center;
+}
+
+.support-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  padding: 0 1.5rem;
+}
+
+@media all and (max-width: 992px) {
+  .support-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .support-item {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .support-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .support-item {
+    width: 100%;
+    padding: 1rem 0;
   }
 }
