@@ -249,3 +249,8 @@ body {
   background-color: var(--white) !important;
   transition: all 0.3s ease-in-out !important;
 }
+
+/* footer */
+footer {
+  background-color: rgb(218, 218, 218);
+}
