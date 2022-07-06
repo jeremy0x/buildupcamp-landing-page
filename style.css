@@ -1,8 +1,8 @@
 :root {
-  --black: #1a1b20;
-  --white: #e6e6e6;
-  --cobalt-blue: hsla(212, 100%, 79%, 0.363);
-  --light-blue: #77bbbb;
+  --black: #191b1d;
+  --white: #fff;
+  --cobalt-blue: #0047ab46;
+  --light-blue: #0047ab;
 }
 
 * {
@@ -11,40 +11,19 @@
   box-sizing: border-box;
 }
 
-.mb-24 {
-  margin-bottom: 24px !important;
-}
-
-.border-bottom {
-  border-bottom: 1px solid var(--white);
-}
-
-.border-top {
-  border-top: 1px solid var(--white);
-}
-
 body {
-  position: relative;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3d49;
-  background: #fff;
+  color: var(--black) !important;
   margin: 1rem 0;
   font-family: 'Open Sans', sans-serif !important;
   height: 100%;
-  background-color: var(--cobalt-blue) !important;
+  background-color: var(--white) !important;
   background-image: url(https://raw.githubusercontent.com/jeremiey/huddle-landing-page-zuri/4e2a71e8ed3847d3245d24874aa7d08bdcb26a47/images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  transition: all 0.5s ease-in-out;
-}
-
-@media all and (max-width: 768px) {
-  body {
-    background-image: url(https://raw.githubusercontent.com/jeremiey/huddle-landing-page-zuri/4e2a71e8ed3847d3245d24874aa7d08bdcb26a47/images/bg-hero-mobile.svg);
-  }
+  transition: all 0.4s ease-in-out;
 }
 
 .sections {
@@ -53,6 +32,34 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
+}
+
+.sections-header {
+  text-align: center;
+}
+
+.sections .sections-header h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 48px;
+  max-width: 600px;
+}
+
+.sections .sections-header p {
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .sections {
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+  .sections h2 {
+    font-size: 1.7rem;
+  }
+  .sections .sections-header p {
+    font-size: 1rem;
+  }
 }
 
 .strong {
@@ -64,11 +71,6 @@ body {
     text-align: left;
     padding: 1rem 2rem;
   }
-}
-
-/* nav bar */
-nav {
-  padding: 1.5rem 5rem !important;
 }
 
 /* hero-section */
@@ -132,86 +134,57 @@ nav {
   }
 }
 
-/* program details section */
-.sections-header {
-  text-align: center;
+/* program details/courses section */
+.programs-section {
+  padding: 1rem 10rem;
 }
 
-.sections .sections-header h2 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 48px;
-}
-
-.sections .sections-header p {
-  max-width: 600px;
-}
-
-@media screen and (max-width: 768px) {
-  .sections {
-    text-align: left;
-    padding: 1rem 2rem;
-  }
-  .sections h2 {
-    font-size: 1.7rem;
-  }
-  .sections .sections-header p {
-    font-size: 1rem;
+@media all and (max-width: 992px) {
+  .programs-section {
+    padding: 1rem 5rem;
   }
 }
 
-.programs-section .course-cards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0 1rem;
-}
-
-.programs-section .course-cards .course-card {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 3rem 2.5rem;
-  margin: 0.5rem 0.5rem;
-  max-width: 270px;
-  border-radius: 20px;
-  color: var(--white) !important;
-  background-color: var(--black);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  transition: all 0.3s ease-in-out;
-}
-
-.programs-section .course-cards .course-card-footer .btn {
-  color: var(--black);
-  background-color: var(--light-blue);
-  transition: all 0.3s ease-in-out !important;
-}
-
-@media screen and (max-width: 768px) {
-  .programs-section .course-cards .course-card {
-    padding: 2rem 1.5rem;
+@media all and (max-width: 768px) {
+  .programs-section {
+    padding: 1rem 1.5rem;
   }
+}
 
-  .programs-section .course-cards .course-card:nth-child(2n) {
-    margin-left: 0;
+@media all and (max-width: 600px) {
+  .programs-section {
+    padding: 1rem 1rem;
   }
+}
+
+@media all and (max-width: 575px) {
+  .programs-section {
+    padding: 1rem 5rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .programs-section {
+    padding: 1rem 1rem;
+  }
+}
+
+.programs-section .row .col-sm-6 .card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Clients/Sponsors Section */
-.clients-section .interllo-clients {
+.sponsor-section .interllo-clients {
   width: 100%;
   display: block;
   float: left;
   text-align: center;
 }
 
-.clients-section .interllo-clients img {
-  width: 20%;
+.sponsor-section .interllo-sponsored img {
+  width: 150px;
   height: auto;
   transition: all 0.3s ease-in-out;
-  filter: invert(1);
 }
 
 /* Support details section */
@@ -257,4 +230,22 @@ nav {
     width: 100%;
     padding: 1rem 0;
   }
+}
+
+/* Next step section */
+.next-step-section {
+  padding: 10rem 0;
+  color: var(--white);
+  background-size: cover;
+  background-color: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 71, 171, 0.3));
+  background-image: url('https://www.udacity.com/images/pattern-background-555px-opt.png');
+}
+
+.next-step-section .sections-header .btn {
+  font-weight: 400;
+  padding: 1rem 2rem;
+  color: var(--light-blue) !important;
+  text-transform: uppercase;
+  background-color: var(--white) !important;
+  transition: all 0.3s ease-in-out !important;
 }
