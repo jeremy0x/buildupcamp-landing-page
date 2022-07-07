@@ -1,8 +1,8 @@
 :root {
   --black: #191b1d;
   --white: #fff;
-  --cobalt-blue: #0047ab46;
-  --light-blue: #0047ab;
+  --light-cobalt-blue: #0047ab23;
+  --cobalt-blue: #0047ab;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .sections {
@@ -38,14 +38,14 @@ body {
   text-align: center;
 }
 
-.sections .sections-header h2 {
+.sections-header h2 {
   font-size: 2rem;
   font-weight: 300;
   line-height: 48px;
   max-width: 600px;
 }
 
-.sections .sections-header p {
+.sections-header p {
   max-width: 600px;
 }
 
@@ -57,7 +57,7 @@ body {
   .sections h2 {
     font-size: 1.7rem;
   }
-  .sections .sections-header p {
+  .sections-header p {
     font-size: 1rem;
   }
 }
@@ -100,7 +100,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 50%;
-  padding: 0 2rem;
+  padding-left: 2rem;
 }
 
 .hero-section .hero-right img {
@@ -134,6 +134,70 @@ body {
   }
 }
 
+form {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 3rem 3rem;
+  width: 80%;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group input {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  padding: 0.9rem 1.2rem;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+form .form-group button {
+  width: 100%;
+  padding: 0.5rem 5rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--cobalt-blue) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+form .form-group button:hover {
+  color: var(--white) !important;
+  transform: scale(1);
+}
+
+@media screen and (max-width: 1200px) {
+  form {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form {
+    width: 70%;
+    padding: 1rem 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+
+  form .form-group button {
+    padding: 0.5rem 1rem;
+  }
+}
+
 /* program details/courses section */
 .programs-section {
   padding: 1rem 10rem;
@@ -154,6 +218,7 @@ body {
 @media all and (max-width: 600px) {
   .programs-section {
     padding: 1rem 1rem;
+    margin: 0 1rem;
   }
 }
 
@@ -170,7 +235,21 @@ body {
 }
 
 .programs-section .row .col-sm-6 .card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 15px !important;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.programs-section .row .col-sm-6 .card:hover {
+  transform: scale(1.02);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.programs-section .row .col-sm-6 .card .card-body a {
+  padding: 1rem 3.5rem !important;
+  background-color: var(--cobalt-blue) !important;
+  border: none !important;
 }
 
 /* Clients/Sponsors Section */
@@ -244,7 +323,7 @@ body {
 .next-step-section .sections-header .btn {
   font-weight: 400;
   padding: 1rem 2rem;
-  color: var(--light-blue) !important;
+  color: var(--cobalt-blue) !important;
   text-transform: uppercase;
   background-color: var(--white) !important;
   transition: all 0.3s ease-in-out !important;
@@ -253,4 +332,13 @@ body {
 /* footer */
 footer {
   background-color: rgb(218, 218, 218);
+}
+
+footer a {
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+footer a:hover {
+  color: var(--cobalt-blue) !important;
 }
