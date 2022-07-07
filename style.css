@@ -200,37 +200,42 @@ body {
 }
 
 /* program details/courses section */
-.programs-section {
+.programs-section .row {
   padding: 1rem 10rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .programs-section .row {
+    padding: 1rem 3rem;
+  }
+}
+
 @media all and (max-width: 992px) {
-  .programs-section {
-    padding: 1rem 5rem;
+  .programs-section .row {
+    padding: 1rem 3rem;
   }
 }
 
 @media all and (max-width: 768px) {
-  .programs-section {
-    padding: 2rem;
+  .programs-section .row {
+    padding: 1rem 10rem;
   }
 }
 
-@media all and (max-width: 600px) {
-  .programs-section {
-    padding: 1rem;
-    margin: 0 1rem;
+@media all and (max-width: 680px) {
+  .programs-section .row {
+    padding: 1rem 7rem;
   }
 }
 
 @media all and (max-width: 575px) {
-  .programs-section {
-    padding: 1rem;
+  .programs-section .row {
+    padding: 1rem 5rem;
   }
 }
 
-@media all and (max-width: 450px) {
-  .programs-section {
+@media all and (max-width: 480px) {
+  .programs-section .row {
     padding: 1rem;
   }
 }
