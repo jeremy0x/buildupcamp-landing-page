@@ -211,26 +211,26 @@ form .form-group button:hover {
 
 @media all and (max-width: 768px) {
   .programs-section {
-    padding: 1rem 1.5rem;
+    padding: 2rem;
   }
 }
 
 @media all and (max-width: 600px) {
   .programs-section {
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin: 0 1rem;
   }
 }
 
 @media all and (max-width: 575px) {
   .programs-section {
-    padding: 1rem 5rem;
+    padding: 1rem;
   }
 }
 
 @media all and (max-width: 450px) {
   .programs-section {
-    padding: 1rem 1rem;
+    padding: 1rem;
   }
 }
 
@@ -250,6 +250,12 @@ form .form-group button:hover {
   padding: 1rem 3.5rem !important;
   background-color: var(--cobalt-blue) !important;
   border: none !important;
+}
+
+@media screen and (max-width: 650px) {
+  .programs-section .row .col-sm-6 .card .card-body a {
+    padding: 1rem 2rem !important;
+  }
 }
 
 /* Clients/Sponsors Section */
