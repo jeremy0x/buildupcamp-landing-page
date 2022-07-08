@@ -2,9 +2,8 @@
   --black: #191b1d;
   --white: #fff;
   --light-cobalt-blue: #0047ab23;
-  --cobalt-blue: #0047ab;
   --border-radius: 10px;
-  --light-blue: #017a9b;
+  --light-blue: #0181a4;
 }
 
 * {
@@ -233,7 +232,7 @@ span:nth-child(10) {
   font-weight: bold;
   text-transform: uppercase;
   color: var(--white);
-  background-color: var(--cobalt-blue) !important;
+  background-color: var(--light-blue) !important;
   transition: all 0.3s ease-in-out;
 }
 
@@ -405,6 +404,80 @@ span:nth-child(10) {
   margin: auto;
   background-size: cover;
   background-image: url('img/background.png');
+}
+
+.next-step-section form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.next-step-section form input {
+  width: 70%;
+  padding: 0.7rem 1.2rem;
+  margin-right: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--light-blue);
+  color: var(--white);
+  background-color: var(--light-cobalt-blue);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.next-step-section form input::placeholder {
+  color: var(--white);
+}
+
+.next-step-section form button {
+  width: 30%;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--light-blue);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--light-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.next-step-section form button:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 992px) {
+  .next-step-section form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .next-step-section form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .next-step-section form {
+    width: 100%;
+  }
+
+  .next-step-section form button {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .next-step-section form button {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .next-step-section form button {
+    width: 80%;
+  }
 }
 
 /* footer */
