@@ -4,6 +4,7 @@
   --light-cobalt-blue: #0047ab23;
   --cobalt-blue: #0047ab;
   --border-radius: 10px;
+  --light-blue: #017a9b;
 }
 
 * {
@@ -20,7 +21,7 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   height: 100%;
   background-color: var(--white) !important;
-  background-image: url(https://raw.githubusercontent.com/jeremiey/huddle-landing-page-zuri/4e2a71e8ed3847d3245d24874aa7d08bdcb26a47/images/bg-hero-desktop.svg);
+  background-image: url('img/bg-desktop.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,8 +78,21 @@ body {
 /* hero-section */
 .hero-section {
   display: flex;
+  padding-top: 5rem !important;
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-section {
+    padding-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .hero-section {
+    padding-top: 5rem !important;
+  }
 }
 
 .hero-section .hero-left {
@@ -93,6 +107,66 @@ body {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 48px;
+  animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 .hero-section .hero-right {
@@ -240,33 +314,15 @@ body {
   }
 }
 
-.programs-section .row .col-sm-6 .card {
+.programs-section .row .col .card {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
   border-radius: var(--border-radius) !important;
-  padding: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
-.programs-section .row .col-sm-6 .card:hover {
-  transform: scale(1.02);
+.programs-section .row .col .card:hover {
+  transform: scale(1.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
-.programs-section .row .col-sm-6 .card .card-body a {
-  padding: 0.7rem 3.5rem !important;
-  background-color: var(--cobalt-blue) !important;
-  border: none !important;
-  transition: all 0.3s ease-in-out;
-}
-
-.programs-section .row .col-sm-6 .card .card-body a:hover {
-  transform: scale(1.02);
-}
-
-@media screen and (max-width: 650px) {
-  .programs-section .row .col-sm-6 .card .card-body a {
-    padding: 1rem 2rem !important;
-  }
 }
 
 /* Clients/Sponsors Section */
@@ -280,7 +336,20 @@ body {
 .sponsor-section .interllo-sponsored img {
   width: 150px;
   height: auto;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(1) invert(1);
+  -webkit-filter: grayscale(1) invert(1);
+  -moz-filter: grayscale(1) invert(1);
+  -o-filter: grayscale(1) invert(1);
+  -ms-filter: grayscale(1) invert(1);
+}
+
+.sponsor-section .interllo-sponsored img:hover {
+  filter: grayscale(0) invert(0);
+  -webkit-filter: grayscale(0) invert(0);
+  -moz-filter: grayscale(0) invert(0);
+  -o-filter: grayscale(0) invert(0);
+  -ms-filter: grayscale(0) invert(0);
 }
 
 /* Support details section */
@@ -330,7 +399,6 @@ body {
 
 /* Next step section */
 .next-step-section {
-  /* padding-left: 30%; */
   padding-top: 10rem;
   padding-bottom: 10rem;
   color: var(--white);
