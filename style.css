@@ -336,31 +336,7 @@ body {
   color: var(--white);
   margin: auto;
   background-size: cover;
-  background-image: url('https://www.udacity.com/images/pattern-background-555px-opt.png');
-}
-
-.next-step-section form {
-  margin: 0 5rem;
-  max-width: 600px;
-  text-align: center !important;
-}
-
-.next-step-section form input {
-  width: 100%;
-  padding: 0.9rem 1.2rem;
-  font-size: 0.8rem;
-  transition: all 0.3s ease-in-out;
-}
-
-.next-step-section form button {
-  width: 100%;
-  padding: 0.9rem 1.2rem;
-  font-weight: bold;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  color: var(--white);
-  background-color: var(--cobalt-blue) !important;
-  transition: all 0.3s ease-in-out;
+  background-image: url('img/background.png');
 }
 
 /* footer */
