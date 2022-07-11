@@ -24,7 +24,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: all 0.3s ease-in-out;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .sections {
