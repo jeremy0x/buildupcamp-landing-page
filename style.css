@@ -36,6 +36,11 @@ body {
   }
 }
 
+/* add box shadow to nav bar bottom */
+.navbar {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
 .sections {
   display: flex;
   flex-direction: column;
@@ -243,7 +248,33 @@ span:nth-child(10) {
   color: var(--white);
   background-color: var(--light-blue) !important;
   transition: all 0.3s ease-in-out;
+  animation: wiggle 2s linear infinite;
 }
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-5deg);
+  }
+  20% {
+    transform: rotateZ(5deg);
+  }
+  25% {
+    transform: rotateZ(-5deg);
+  }
+  30% {
+    transform: rotateZ(3deg);
+  }
+  35% {
+    transform: rotateZ(-2deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
 
 .hero-section .hero-right form .form-group button:hover {
   color: var(--white) !important;
@@ -448,6 +479,7 @@ span:nth-child(10) {
   border-radius: var(--border-radius);
   border: 1px solid var(--light-blue);
   transition: all 0.3s ease-in-out;
+  animation: wiggle 2s linear infinite;
 }
 
 .next-step-section form button:hover {
