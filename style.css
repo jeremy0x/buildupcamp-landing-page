@@ -256,16 +256,16 @@ span:nth-child(10) {
     transform: rotateZ(0);
   }
   15% {
-    transform: rotateZ(-5deg);
+    transform: rotateZ(-2deg);
   }
   20% {
-    transform: rotateZ(5deg);
+    transform: rotateZ(2deg);
   }
   25% {
-    transform: rotateZ(-5deg);
+    transform: rotateZ(-2deg);
   }
   30% {
-    transform: rotateZ(3deg);
+    transform: rotateZ(2deg);
   }
   35% {
     transform: rotateZ(-2deg);
