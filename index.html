@@ -5,34 +5,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
+    
+    <!-- ===> CSS <==== -->
     <link rel="stylesheet" href="style.css" />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/d778668bce.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Favicon -->
+
+    <!-- ===> Favicon <==== -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <!-- Google Fonts -->
+
+    <!-- ===> Google Fonts <==== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <!-- Bootstrap -->
+
+    <!-- ===> Bootstrap 5.2.0 <==== -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
@@ -58,9 +52,6 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="https://interllo.com">About Us</a>
-              </li>
-              <li class="nav-item px-3">
                 <a class="nav-link" href="#courses">Available Courses</a>
               </li>
               <li class="nav-item px-3">
@@ -77,19 +68,19 @@
       <!-- Begin hero section -->
       <section class="hero-section mb-5">
         <div class="hero-left">
-          <h1 class="mb-3">
+          <h1 class="mb-3 revealUp">
             <span>Lorem</span> <span>ipsum</span> <span>dolor</span>
             <span>sit</span> <span>amet,</span> <span>consectetur</span>
             <span>adipisicing</span> <span>elit.</span> <span>Sit,</span>
             <span>fuga.</span>
           </h1>
-          <p>
+          <p class="revealUp">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, et.
             Dignissimos ducimus incidunt inventore ab, asperiores impedit
             accusamus laboriosam maiores!
           </p>
         </div>
-        <div class="hero-right">
+        <div class="hero-right revealUp">
           <form class="form" autocomplete="off">
             <h4 class="sections-header mb-3">Join the Comunity</h4>
             <div class="form-group">
@@ -127,7 +118,7 @@
       <!-- End hero section -->
       <!-- Begin program details / courses section -->
       <section class="programs-section sections mb-5 pt-5" id="courses">
-        <div class="sections-header">
+        <div class="sections-header revealUp">
           <h2 class="mb-3">Find your perfect program.</h2>
           <p>
             We have a wide range of programs to choose from. Whether you're
@@ -135,7 +126,7 @@
             that's right for you.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 revealUp">
           <div class="col mb-4">
             <div class="card h-100">
               <img
@@ -228,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-4 g-4 revealUp">
           <div class="col">
             <div class="card h-100">
               <img
@@ -325,13 +316,11 @@
 
       <!-- End program details / courses section -->
       <!-- Begin support section -->
-      <section class="sponsor-section sections mb-5 pt-5">
+      <section class="sponsor-section sections mb-5 pt-5 revealUp">
         <div class="sections-header">
           <h2 class="mb-3">We are powered by industry</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            dolor magni asperiores vitae necessitatibus repellendus doloribus?
-            Incidunt praesentium voluptate adipisci?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.
           </p>
         </div>
         <div class="interllo-sponsored strong">
@@ -346,7 +335,7 @@
       </section>
       <!-- End sponsor section -->
       <!-- Begin support offered section -->
-      <section class="support-section sections mb-5" id="features">
+      <section class="support-section sections mb-5 revealUp" id="features">
         <div class="sections-header mb-5 pt-5">
           <h2>Learn better with support along the way.</h2>
         </div>
@@ -359,20 +348,17 @@
               loading="lazy"
             />
             <p class="strong mb-3">24/7 Power and Internet Connection</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              nisi saepe numquam animi assumenda excepturi, inventore aut quidem
-              quae sed!
+            <p class="small-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              totam.
             </p>
           </div>
 
           <div class="support-item">
             <img src="img/1hr-icon.svg" alt="img" class="mb-4" loading="lazy" />
             <p class="strong mb-3">Immediate Response Time</p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-              veritatis nisi ex alias laudantium cumque omnis et harum expedita
-              quod.
+            <p class="small-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quis!
             </p>
           </div>
 
@@ -384,10 +370,8 @@
               loading="lazy"
             />
             <p class="strong mb-3">Physical Facility</p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-              est hic at fugit nam magni repudiandae nobis ratione repellat
-              perspiciatis?
+            <p class="small-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, dolore.
             </p>
           </div>
           <div class="support-item">
@@ -398,10 +382,8 @@
               loading="lazy"
             />
             <p class="strong mb-3">Personalized feedback</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium reiciendis excepturi porro commodi temporibus
-              accusantium ducimus ea hic non cupiditate.
+            <p class="small-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, animi.
             </p>
           </div>
         </div>
@@ -410,10 +392,16 @@
       <!-- Begin next-step section -->
       <section class="next-step-section sections">
         <div class="sections-header">
-          <h2 class="mb-4">Take the next step in your career journey today.</h2>
+          <h2 class="mb-4 revealUp">Take the next step in your career journey today.</h2>
         </div>
-        <form>
-          <input type="email" name="email" placeholder="Email address" autocomplete="off" required />
+        <form class="revealUp">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            autocomplete="off"
+            required
+          />
           <button>
             Let's go
             <i
@@ -479,7 +467,7 @@
       <!-- Section: Social media -->
 
       <!-- Section: Links  -->
-      <section class="">
+      <section>
         <div class="container text-center text-md-start mt-5">
           <!-- Grid row -->
           <div class="row mt-3">
@@ -568,5 +556,33 @@
       <!-- Copyright -->
     </footer>
     <!-- End of footer -->
+
+    <!-- ===> Font Awesome Kit <==== -->
+    <script
+      src="https://kit.fontawesome.com/d778668bce.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===> Bootstrap 5.2.0 JS <==== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===> ScrollTrigger <==== -->
+    <script
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===> Gsap 3 <==== -->
+    <script
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===> JavaScirpt <==== -->
+    <script src="script.js" defer></script>
   </body>
 </html>
