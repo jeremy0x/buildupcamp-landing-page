@@ -113,13 +113,13 @@ body {
 
 @media screen and (max-width: 992px) {
   .hero-section {
-    padding-top: 3rem !important;
+    padding-top: 7rem !important;
   }
 }
 
 @media screen and (max-width: 330px) {
   .hero-section {
-    padding-top: 5rem !important;
+    padding-top: 9rem !important;
   }
 }
 
