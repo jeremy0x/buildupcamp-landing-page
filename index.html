@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- ===> CSS <==== -->
     <link rel="stylesheet" href="style.css" />
 
@@ -81,11 +81,16 @@
           </p>
         </div>
         <div class="hero-right revealUp">
-          <form class="form" autocomplete="off">
+          <form
+            action="https://formsubmit.co/5ad6e90d1d6c9847586699d8ecf9fee2"
+            method="POST"
+            class="form"
+          >
             <h4 class="sections-header mb-3">Join the Comunity</h4>
             <div class="form-group">
               <input
                 type="text"
+                name="name"
                 class="form-control mb-3"
                 id="name"
                 placeholder="Your name"
@@ -93,6 +98,7 @@
               />
               <input
                 type="email"
+                name="email"
                 class="form-control mb-3"
                 id="email"
                 placeholder="Email address"
@@ -100,6 +106,7 @@
               />
               <input
                 type="text"
+                name="phone-number"
                 class="form-control mb-3"
                 id="phone"
                 placeholder="Phone number"
@@ -108,8 +115,25 @@
                 pattern="^[0-9]{11}$"
                 required
               />
+              <input
+                type="hidden"
+                name="_next"
+                value="http://127.0.0.1:5500/index.html"
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="New applicant on BuildUpCamp!"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_autoresponse"
+                value="Your response has been received... You will be replied shortly."
+              />
               <button type="submit" class="btn" id="submit-btn">
-                <i class="fa fa-right-to-bracket"></i> Get Started
+                Get Started
               </button>
             </div>
           </form>
@@ -320,7 +344,8 @@
         <div class="sections-header">
           <h2 class="mb-3">We are powered by industry</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,
+            distinctio.
           </p>
         </div>
         <div class="interllo-sponsored strong">
@@ -358,7 +383,8 @@
             <img src="img/1hr-icon.svg" alt="img" class="mb-4" loading="lazy" />
             <p class="strong mb-3">Immediate Response Time</p>
             <p class="small-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quis!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              quis!
             </p>
           </div>
 
@@ -371,7 +397,8 @@
             />
             <p class="strong mb-3">Physical Facility</p>
             <p class="small-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, dolore.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti, dolore.
             </p>
           </div>
           <div class="support-item">
@@ -383,7 +410,8 @@
             />
             <p class="strong mb-3">Personalized feedback</p>
             <p class="small-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, animi.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro,
+              animi.
             </p>
           </div>
         </div>
@@ -392,23 +420,39 @@
       <!-- Begin next-step section -->
       <section class="next-step-section sections">
         <div class="sections-header">
-          <h2 class="mb-4 revealUp">Take the next step in your career journey today.</h2>
+          <h2 class="mb-4 revealUp">
+            Take the next step in your career journey today.
+          </h2>
         </div>
-        <form class="revealUp">
+        <form
+          action="https://formsubmit.co/5ad6e90d1d6c9847586699d8ecf9fee2"
+          method="POST"
+          class="revealUp"
+        >
           <input
             type="email"
             name="email"
             placeholder="Email address"
-            autocomplete="off"
             required
           />
-          <button>
-            Let's go
-            <i
-              class="fa-solid fa-right-to-bracket"
-              style="margin-left: 5px"
-            ></i>
-          </button>
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/index.html"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New applicant on BuildUpCamp!"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Your response has been received... You will be replied shortly."
+          />
+          <button>Let's go</button>
         </form>
       </section>
       <!-- End next-step section -->
@@ -571,10 +615,7 @@
     ></script>
 
     <!-- ===> ScrollTrigger <==== -->
-    <script
-      src="scrollTrigger.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="scrollTrigger.js" crossorigin="anonymous"></script>
 
     <!-- ===> Gsap 3 <==== -->
     <script
