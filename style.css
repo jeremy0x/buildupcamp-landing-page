@@ -331,19 +331,13 @@ span:nth-child(10) {
 
 @media all and (max-width: 768px) {
   .programs-section .row {
-    padding: 1rem 10rem;
-  }
-}
-
-@media all and (max-width: 680px) {
-  .programs-section .row {
-    padding: 1rem 7rem;
+    padding: 1rem 5rem;
   }
 }
 
 @media all and (max-width: 575px) {
   .programs-section .row {
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
   }
 }
 
