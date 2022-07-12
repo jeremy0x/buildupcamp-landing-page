@@ -1,5 +1,4 @@
 gsap.registerPlugin(ScrollTrigger);
-// REVEAL //
 gsap.utils.toArray('.revealUp').forEach(function (elem) {
   ScrollTrigger.create({
     trigger: elem,
