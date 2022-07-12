@@ -35,6 +35,27 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
+.buildUpCamp-logo {
+  width: 250px;
+  filter: grayscale(1) invert(1);
+  -webkit-filter: grayscale(1) invert(1);
+  -moz-filter: grayscale(1) invert(1);
+  -o-filter: grayscale(1) invert(1);
+  -ms-filter: grayscale(1) invert(1);
+}
+
+@media screen and (max-width: 992px) {
+  footer h6 .buildUpCamp-logo {
+    width: 165px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer h6 .buildUpCamp-logo {
+    width: 250px;
+  }
+}
+
 .sections {
   display: flex;
   flex-direction: column;
