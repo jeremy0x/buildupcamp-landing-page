@@ -199,7 +199,8 @@ body {
 }
 
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(0);
   }
   15% {
@@ -217,11 +218,11 @@ body {
   35% {
     transform: rotateZ(-2deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotateZ(0);
   }
 }
-
 
 .hero-section .hero-right form .form-group button:hover {
   color: var(--white) !important;
@@ -435,7 +436,7 @@ body {
 
 .next-step-section form button {
   width: 30%;
-  padding: 0.7rem 1.2rem;
+  padding: 0.4rem 1.2rem;
   font-size: 1rem;
   color: var(--white);
   background-color: var(--light-blue);
@@ -456,7 +457,7 @@ body {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .next-step-section form {
     width: 90%;
   }
