@@ -147,10 +147,6 @@ body {
   padding-left: 2rem;
 }
 
-.hero-section .hero-right img {
-  width: 100%;
-}
-
 @media screen and (max-width: 992px) {
   .hero-section {
     flex-direction: column;
@@ -170,11 +166,6 @@ body {
   .hero-section .hero-left h1 {
     font-size: 2rem;
     line-height: 48px;
-  }
-
-  .hero-section .hero-right img {
-    width: 80%;
-    min-width: 300px;
   }
 }
 
@@ -197,7 +188,7 @@ body {
 
 .hero-section .hero-right form .form-group button {
   width: 100%;
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 4rem;
   margin-top: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -265,6 +256,24 @@ body {
 
   .hero-section .hero-right form .form-group button {
     padding: 0.5rem 1rem;
+  }
+}
+
+#submit-btn img {
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .lets-go img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #submit-btn img {
+    display: none;
   }
 }
 
@@ -450,6 +459,10 @@ body {
 @media screen and (max-width: 700px) {
   .next-step-section form {
     width: 90%;
+  }
+
+  .next-step-section form button {
+    width: 35%;
   }
 }
 
