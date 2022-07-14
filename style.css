@@ -500,5 +500,9 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--cobalt-blue) !important;
+  color: var(--light-blue) !important;
+}
+
+footer {
+  font-size: smaller !important;
 }
