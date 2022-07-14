@@ -1,0 +1,55 @@
+:root {
+  --text-black: #58616a;
+}
+
+main {
+  padding: 2rem 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    padding: 2rem 1rem;
+  }
+}
+
+h4 {
+  font-weight: 300 !important;
+  font-size: 2rem !important;
+}
+
+.top-text small {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  line-height: 1.9;
+  letter-spacing: .1rem;
+  color: #657482;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+.text {
+  font-size: 1rem !important;
+  line-height: 1.7;
+  color: var(--text-black);
+}
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 1.5rem !important;
+  }
+
+  .top-text small {
+    font-size: 0.8rem !important;
+  }
+
+  h5 {
+    font-size: 1.2rem !important;
+  }
+
+  .text {
+    font-size: 0.9rem !important;
+  }
+}
