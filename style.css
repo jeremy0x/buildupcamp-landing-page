@@ -281,7 +281,7 @@ body {
 
 /* program details/courses section */
 .programs-section .row {
-  padding: 1rem 10rem;
+  padding: 1rem 3rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -292,11 +292,11 @@ body {
 
 @media all and (max-width: 992px) {
   .programs-section .row {
-    padding: 1rem 3rem;
+    padding: 1rem 0;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .programs-section .row {
     padding: 1rem 5rem;
   }
