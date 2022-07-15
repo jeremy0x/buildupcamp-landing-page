@@ -1,5 +1,6 @@
 :root {
   --text-black: #58616a;
+  --light-blue: #0181a4;
 }
 
 main {
@@ -21,7 +22,7 @@ h4 {
   font-size: 0.8rem !important;
   font-weight: 600 !important;
   line-height: 1.9;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: #657482;
 }
 
@@ -34,6 +35,32 @@ h5 {
   font-size: 1rem !important;
   line-height: 1.7;
   color: var(--text-black);
+}
+
+.text a {
+  position: relative;
+  text-decoration: none;
+  color: var(--light-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.text a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.text a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: var(--light-blue);
 }
 
 @media screen and (max-width: 768px) {

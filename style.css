@@ -519,12 +519,28 @@ footer {
 }
 
 footer a {
-  text-decoration: none !important;
-  transition: all 0.3s ease-in-out !important;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
-footer a:hover {
-  color: var(--light-blue) !important;
+footer a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--light-cobalt-blue);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+footer a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: var(--light-cobalt-blue);
 }
 
 footer {
