@@ -518,13 +518,13 @@ footer {
   background-color: rgb(218, 218, 218);
 }
 
-footer a {
+footer p a {
   position: relative;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
-footer a::after {
+footer p a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -537,7 +537,7 @@ footer a::after {
   transition: transform 0.25s ease-out;
 }
 
-footer a:hover::after {
+footer p a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
   color: var(--light-cobalt-blue);
