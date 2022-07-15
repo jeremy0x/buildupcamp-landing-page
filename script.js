@@ -1,3 +1,4 @@
+// Gsap 3 and ScrollTrigger | Scrolling animation
 gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray('.revealUp').forEach(function (elem) {
   ScrollTrigger.create({
@@ -37,5 +38,12 @@ gsap.utils.toArray('.revealUp').forEach(function (elem) {
     onLeaveBack: function () {
       gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: 'auto' });
     },
+  });
+});
+
+// Alert on form submit
+$(document).ready(function () {
+  $('.form').on('submit', function () {
+    swal('Submitted', `Your details were successfully submitted`, 'success');
   });
 });
