@@ -3,6 +3,10 @@
   --light-blue: #0181a4;
 }
 
+body {
+  background-image: none;
+}
+
 main {
   padding: 2rem 5rem;
 }
