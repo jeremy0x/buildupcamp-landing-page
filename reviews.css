@@ -35,3 +35,9 @@ h1 {
   font-weight: 600 !important;
   color: var(--dark-blue);
 }
+
+@media screen and (max-width: 1200px) {
+  .review {
+    max-width: 90%;
+  }
+}
