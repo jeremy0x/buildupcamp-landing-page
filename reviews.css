@@ -36,6 +36,12 @@ h1 {
   color: var(--dark-blue);
 }
 
+.review .author img {
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1200px) {
   .review {
     max-width: 90%;
