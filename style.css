@@ -1,5 +1,8 @@
+@charset 'UTF-8';
+
 :root {
   --black: #191b1d;
+  --lighter-black: #58616a;
   --white: #fff;
   --light-cobalt-blue: #0047ab23;
   --border-radius: 10px;
@@ -78,7 +81,9 @@ body {
 
 .sections-header p {
   max-width: 600px;
+  color: var(--lighter-black);
 }
+
 
 @media screen and (max-width: 768px) {
   .sections {
@@ -142,6 +147,7 @@ body {
 .hero-section .hero-left p {
   line-height: 30px;
   letter-spacing: 0.5px;
+  color: var(--lighter-black);
 }
 
 .hero-section .hero-right {
@@ -403,6 +409,7 @@ body {
 
 .support-section .support-list .support-item .small-text {
   font-size: 0.95rem;
+  color: var(--lighter-black);
 }
 
 @media all and (max-width: 992px) {
@@ -527,6 +534,7 @@ body {
 /* footer */
 footer {
   background-color: rgb(218, 218, 218);
+  font-size: smaller !important;
 }
 
 footer p a {
@@ -543,7 +551,7 @@ footer p a::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--light-cobalt-blue);
+  background-color: var(--lighter-black);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -551,9 +559,9 @@ footer p a::after {
 footer p a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  color: var(--light-cobalt-blue);
+  color: var(--lighter-black);
 }
 
-footer {
-  font-size: smaller !important;
+footer .footer-buc-description {
+  color: var(--lighter-black);
 }
