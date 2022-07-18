@@ -40,7 +40,7 @@ body {
 }
 
 .buildUpCamp-logo {
-  width: 250px;
+  width: 200px;
   filter: grayscale(1) invert(1);
   -webkit-filter: grayscale(1) invert(1);
   -moz-filter: grayscale(1) invert(1);
