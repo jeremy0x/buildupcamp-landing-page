@@ -139,6 +139,11 @@ body {
   text-transform: capitalize;
 }
 
+.hero-section .hero-left p {
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
 .hero-section .hero-right {
   display: flex;
   flex-direction: column;
