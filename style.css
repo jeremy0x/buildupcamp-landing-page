@@ -84,7 +84,6 @@ body {
   color: var(--lighter-black);
 }
 
-
 @media screen and (max-width: 768px) {
   .sections {
     text-align: left;
@@ -443,7 +442,7 @@ body {
   color: var(--white);
   margin: auto;
   background-size: cover;
-  background-image: url('img/background.png');
+  background-image: url('img/background.webp');
 }
 
 .next-step-section form {
