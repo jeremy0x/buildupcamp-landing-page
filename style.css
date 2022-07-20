@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   color: var(--black) !important;
   margin: 1rem 0;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   height: 100%;
   background-color: var(--white) !important;
   background-image: url('img/bg-desktop.svg');
@@ -93,7 +93,6 @@ body {
 
 .sections-header h2 {
   font-size: 2rem;
-  font-weight: 300;
   line-height: 48px;
   max-width: 600px;
 }
@@ -114,10 +113,6 @@ body {
   .sections-header p {
     font-size: 1rem;
   }
-}
-
-.strong {
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -145,7 +140,6 @@ body {
 
 .hero-section .hero-left h1 {
   font-size: 2.5rem;
-  font-weight: 300;
   line-height: 48px;
   text-transform: capitalize;
 }
@@ -213,7 +207,6 @@ body {
   width: 100%;
   padding: 0.5rem 4rem;
   margin-top: 0.5rem;
-  font-weight: bold;
   text-transform: uppercase;
   color: var(--white);
   background-color: var(--light-blue) !important;
@@ -355,7 +348,6 @@ body {
 
 .programs-section .row .col .card .card-body .card-title {
   font-size: 1rem;
-  font-weight: bold;
   text-transform: capitalize;
 }
 
