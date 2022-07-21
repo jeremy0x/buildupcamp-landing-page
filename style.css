@@ -69,16 +69,6 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .navbar {
-    padding: 0.5rem 0 !important;
-  }
-
-  .navbar .buildUpCamp-logo {
-    width: 150px;
-  }
-}
-
 .sections {
   display: flex;
   flex-direction: column;
