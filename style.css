@@ -532,6 +532,12 @@ footer {
   font-size: smaller !important;
 }
 
+@media screen and (max-width: 576px) {
+  footer {
+    padding: 1rem 0 !important;
+  }
+}
+
 footer p a {
   position: relative;
   text-decoration: none;
