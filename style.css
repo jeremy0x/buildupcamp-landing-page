@@ -362,8 +362,6 @@ body {
   width: 100%;
 }
 
-.sponsor-section .spo
-
 .sponsor-section .interllo-sponsored img {
   width: 120px;
   height: auto;
@@ -409,7 +407,7 @@ body {
   color: var(--lighter-black);
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 1200px) {
   .support-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -545,7 +543,7 @@ footer p a::after {
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 1px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: var(--lighter-black);
@@ -557,6 +555,10 @@ footer p a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
   color: var(--lighter-black);
+}
+
+footer p a:hover {
+  text-decoration: none;
 }
 
 footer .footer-buc-description {
