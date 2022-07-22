@@ -151,6 +151,14 @@ body {
   .hero-section .hero-left {
     padding-right: 1rem;
   }
+
+  .hero-section {
+    padding: 1rem 3rem;
+  }
+
+  .hero-section .hero-right {
+    padding-left: 5rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -186,7 +194,7 @@ body {
 
 .hero-section .hero-right form .form-group input {
   width: 100%;
-  padding: 0.9rem 1.2rem;
+  padding: 1.5rem 1.2rem;
   font-size: 0.75rem;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
@@ -243,14 +251,15 @@ body {
 
 @media screen and (max-width: 992px) {
   .hero-section .hero-right form {
-    width: 55%;
+    width: 70%;
     padding: 1rem 2rem;
+    margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-section .hero-right form {
-    padding: 1rem 2rem;
+    width: 80%;
   }
 }
 
@@ -346,15 +355,17 @@ body {
 }
 
 /* Clients/Sponsors Section */
-.sponsor-section .interllo-clients {
+.sponsor-section .interllo-sponsored {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  display: block;
-  float: left;
-  text-align: center;
 }
 
+.sponsor-section .spo
+
 .sponsor-section .interllo-sponsored img {
-  width: 150px;
+  width: 120px;
   height: auto;
   transition: all 0.5s ease-in-out;
   filter: grayscale(1) invert(1);
