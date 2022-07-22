@@ -592,3 +592,10 @@ footer p a:hover {
 footer .footer-buc-description {
   color: var(--lighter-black);
 }
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
