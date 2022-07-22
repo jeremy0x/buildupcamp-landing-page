@@ -43,6 +43,7 @@ body {
 
 .buildUpCamp-logo {
   width: 200px;
+  height: auto;
   filter: grayscale(1) invert(1);
   -webkit-filter: grayscale(1) invert(1);
   -moz-filter: grayscale(1) invert(1);
@@ -65,8 +66,14 @@ body {
     width: 20px;
   }
 
-  footer h6 .buildUpCamp-logo {
+  .buildUpCamp-logo {
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .buildUpCamp-logo {
+    width: 150px;
   }
 }
 
@@ -109,6 +116,12 @@ body {
   .sections {
     text-align: left;
     padding: 1rem 0.5rem;
+  }
+  .sections h2 {
+    font-size: 1.5rem;
+  }
+  .sections-header p {
+    font-size: 0.85rem;
   }
 }
 
@@ -281,12 +294,6 @@ body {
   margin-right: 0.5rem;
 }
 
-@media screen and (max-width: 400px) {
-  .lets-go img {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 280px) {
   #submit-btn img {
     display: none;
@@ -384,6 +391,12 @@ body {
   -ms-filter: grayscale(1) invert(1);
 }
 
+@media screen and (max-width: 480px) {
+  .sponsor-section .interllo-sponsored img {
+    width: 100px;
+  }
+}
+
 .sponsor-section .interllo-sponsored img:hover {
   filter: grayscale(0) invert(0);
   -webkit-filter: grayscale(0) invert(0);
@@ -414,7 +427,7 @@ body {
 }
 
 .support-section .support-list .support-item .small-text {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--lighter-black);
 }
 
@@ -434,6 +447,7 @@ body {
   .support-list {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
 
   .support-item {
@@ -463,7 +477,7 @@ body {
   width: 70%;
   padding: 0.7rem 1.2rem;
   margin-right: 10px;
-  font-size: 1rem;
+  font-size: 0.85rem;
   border: 1px solid var(--light-blue);
   color: var(--white);
   background-color: var(--light-cobalt-blue);
@@ -479,7 +493,7 @@ body {
 .next-step-section form button {
   width: 30%;
   padding: 0.4rem 1.2rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: var(--white);
   background-color: var(--light-blue);
   border-radius: var(--border-radius);
@@ -517,23 +531,20 @@ body {
 
 @media screen and (max-width: 550px) {
   .next-step-section form {
+    flex-direction: column;
+  }
+
+  .next-step-section form {
     width: 100%;
   }
 
-  .next-step-section form button {
-    width: 40%;
+  .next-step-section form input {
+    width: 90%;
   }
-}
 
-@media screen and (max-width: 480px) {
   .next-step-section form button {
-    width: 55%;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .next-step-section form button {
-    width: 80%;
+    width: 150px;
+    margin-top: 1rem;
   }
 }
 
