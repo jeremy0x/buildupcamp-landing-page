@@ -38,6 +38,7 @@ body {
 .navbar {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   padding: 0.5rem 1rem !important;
+  font-size: smaller !important;
 }
 
 .buildUpCamp-logo {
@@ -104,10 +105,10 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .sections {
     text-align: left;
-    padding: 1rem 2rem;
+    padding: 1rem 0.5rem;
   }
 }
 
@@ -362,8 +363,18 @@ body {
   width: 100%;
 }
 
+.sponsor-section .sponsor-break {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sponsor-section .sponsor-break {
+    display: block;
+  }
+}
+
 .sponsor-section .interllo-sponsored img {
-  width: 120px;
+  width: 150px;
   height: auto;
   transition: all 0.5s ease-in-out;
   filter: grayscale(1) invert(1);
