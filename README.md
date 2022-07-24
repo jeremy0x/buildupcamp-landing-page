@@ -2,16 +2,14 @@
 
 <a href="https://github.com/jeremiey/buildUpCamp-landing-page/blob/main/LICENSE" alt="GitHub license">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
-<a href="http://makeapullrequest.com" alt="PRs Welcome">
+<a href="https://github.com/jeremiey/buildUpCamp-landing-page/blob/main/CONTRIBUTING.md" alt="PRs Welcome">
         <img src="https://img.shields.io/badge/PRs-welcome-orange" /></a>
-<a href="#" alt="Repo Size">
+<a href="#!" alt="Repo Size">
         <img src="https://img.shields.io/github/repo-size/jeremiey/buildUpCamp-landing-page" /></a>
 
 This is a landing page for [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-landing-page), a tech bootcamp powered by [Interllo](https://interllo.com).
 
 ## Preview
-
-**[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
 
 ### Homepage
 
@@ -23,3 +21,4 @@ This is a landing page for [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-
 
 ![image](https://user-images.githubusercontent.com/87664239/180664464-dca4ccda-7d93-40c9-90ad-8759d3733cf5.png)
 
+**[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
