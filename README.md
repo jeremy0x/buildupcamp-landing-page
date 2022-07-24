@@ -1,11 +1,25 @@
-# BuildUpCamp Landing Page
+# [BuildUpCamp Landing Page](https://jeremiey.github.io/buildUpCamp-landing-page)
 
-A landing page for BuildUpCamp.
+<a href="https://github.com/jeremiey/buildUpCamp-landing-page/blob/main/LICENSE" alt="GitHub license">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+<a href="http://makeapullrequest.com" alt="PRs Welcome">
+        <img src="https://img.shields.io/badge/PRs-welcome-orange" /></a>
+<a href="#" alt="Repo Size">
+        <img src="https://img.shields.io/github/repo-size/jeremiey/buildUpCamp-landing-page" /></a>
 
-Live page: **<https://jeremiey.github.io/buildUpCamp-landing-page>**
+This is a landing page for [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-landing-page), a tech bootcamp powered by [Interllo](https://interllo.com).
 
-![BuildUpCamp-1](https://user-images.githubusercontent.com/87664239/178982441-47eecdb3-5230-4dea-ac08-0b80fd3e62a2.jpg)
+## Preview
 
-<!-- ![image](https://user-images.githubusercontent.com/87664239/177961333-1fbee2e5-ea5f-4254-9f2e-fab4e65dcd2a.png) -->
+**[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
 
-> Still under construction. 🚧
+### Homepage
+
+![hero-secction-image](https://user-images.githubusercontent.com/87664239/180664085-88b203ae-b780-463c-a619-6245740a317e.png)
+
+![footer-section-image](https://user-images.githubusercontent.com/87664239/180664510-83b4e034-977c-4ddb-aa50-57908f279ded.png)
+
+### Reviews Page
+
+![image](https://user-images.githubusercontent.com/87664239/180664464-dca4ccda-7d93-40c9-90ad-8759d3733cf5.png)
+
