@@ -11,14 +11,6 @@ This is a landing page for [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-
 
 ## Preview
 
-### Homepage
-
 ![hero-secction-image](https://user-images.githubusercontent.com/87664239/180664085-88b203ae-b780-463c-a619-6245740a317e.png)
-
-![footer-section-image](https://user-images.githubusercontent.com/87664239/180664510-83b4e034-977c-4ddb-aa50-57908f279ded.png)
-
-### Reviews Page
-
-![image](https://user-images.githubusercontent.com/87664239/180664464-dca4ccda-7d93-40c9-90ad-8759d3733cf5.png)
 
 **[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
