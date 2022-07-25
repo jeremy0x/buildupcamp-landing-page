@@ -299,63 +299,56 @@ body {
 }
 
 /* program details/courses section */
-.programs-section .row {
-  padding: 1rem;
+.programs-section {
+  padding: 1rem 0 !important;
 }
 
-@media screen and (max-width: 1200px) {
-  .programs-section .row {
-    padding: 1rem;
-  }
-}
-
-@media all and (max-width: 992px) {
-  .programs-section .row {
-    padding: 1rem 0;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .programs-section .row {
-    padding: 1rem 5rem;
-  }
-}
-
-@media all and (max-width: 575px) {
-  .programs-section .row {
-    padding: 1rem 2.5rem;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .programs-section .row {
-    padding: 1rem;
-  }
-}
-
-.programs-section .row .col .card {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+.programs-section .card {
   border-radius: var(--border-radius) !important;
   transition: all 0.3s ease-in-out;
+  height: 400px !important;
 }
 
-.programs-section .row .col .card:hover {
+@media screen and (max-width: 992px) {
+  .programs-section .card {
+    height: 450px !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .programs-section .card {
+    height: 500px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .programs-section .card {
+    height: 450px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .programs-section .card {
+    height: 400px !important;
+  }
+}
+
+.programs-section .card:hover {
   transform: scale(1.02);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.programs-section .row .col .card a {
+.programs-section .card a {
   text-decoration: none;
   color: var(--black);
   transition: all 0.3s ease-in-out;
 }
 
-.programs-section .row .col .card .card-body .card-title {
+.programs-section .card .card-body .card-title {
   font-size: 1rem;
   text-transform: capitalize;
 }
 
-.programs-section .row .col .card .card-body .card-text {
+.programs-section .card .card-body .card-text {
   font-size: 0.75rem;
   line-height: 1.5rem;
 }

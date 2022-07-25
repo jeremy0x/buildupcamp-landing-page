@@ -13,6 +13,20 @@
     <meta name="description" content="BuildUpCamp" />
     <meta name="author" content="Jeremiah Aworetan" />
 
+    <!-- OwlCarousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -84,9 +98,13 @@
     ></script>
 
     <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- OwlCarousel JS -->
     <script
-      type="text/javascript"
-      src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
     ></script>
   </head>
 
@@ -219,236 +237,245 @@
             that's right for you.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4 revealUp">
-          <div class="col mb-4">
-            <div class="card border-0 h-100">
-              <img
-                src="img/img-5.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Full Stack Web Development</h5>
-                <p class="card-text">
-                  Learn to design and develop modern web applications that form the foundation for what people use everyday.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card border-0 h-100">
-              <img
-                src="img/uiux.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">UI/UX Design</h5>
-                <p class="card-text">
-                  Design the interface of web applications, and learn to use the
-                  tools you need to create a beautiful user experience.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card border-0 h-100">
-              <img
-                src="img/digital-marketing.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Digital Marketing</h5>
-                <p class="card-text">
-                  Master Digital Marketing Strategy, Social Media Marketing,
-                  SEO, YouTube, Email, Facebook Marketing, Analytics & More!
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card border-0 h-100">
-              <img
-                src="img/product-design.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Graphics Design</h5>
-                <p class="card-text">
-                  Learn the fundamentals of graphics design and learn to design
-                  beautiful graphics for web and print.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4 revealUp">
-          <div class="col">
-            <div class="card border-0 h-100">
-              <img
-                src="img/img-12.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Project Management</h5>
-                <p class="card-text">
-                  Envision and lead the product strategy of industry-defining
-                  products, and learn to successfully bring them to market.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0 h-100">
-              <img
-                src="img/img-8.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Front End Web Development</h5>
-                <p class="card-text">
-                  Learn how to build high quality websites and dynamic
-                  applications to create stunning user experiences for the web.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0 h-100">
-              <img
-                src="img/img-10.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Back End Web Development</h5>
-                <p class="card-text">
-                  In this course, you'll start with programming servers and
-                  client-side interfaces, then level up to designing databases.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-0 h-100">
-              <img
-                src="img/img-6.webp"
-                class="card-img-top img-fluid"
-                alt="img"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Mobile App Development</h5>
-                <p class="card-text">
-                  Become a mobile app developer with proficiency in all aspects
-                  of mobile applications from design to building and publishing
-                  apps for iOS and Android.
-                </p>
-                <!-- <a href="#!" class="card-link"
-                  ><small
-                    ><i class="fa-solid fa-caret-right"></i> Course
-                    Details</small
-                  ></a
-                > -->
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"
-                  ><i class="fa-regular fa-calendar"></i> 3 months</small
-                >
+        <div class="container-fluid my-5">
+          <div class="row">
+            <div class="col-12 m-auto">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/img-5.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Full Stack Web Development</h5>
+                      <p class="card-text">
+                        Learn to design and develop modern web applications that
+                        form the foundation for what people use everyday.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item mb-4">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/uiux.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">UI/UX Design</h5>
+                      <p class="card-text">
+                        Design the interface of web applications, and learn to
+                        use the tools you need to create a beautiful user
+                        experience.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/digital-marketing.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">
+                        Master Digital Marketing Strategy, Social Media
+                        Marketing, SEO, YouTube, Email, Facebook Marketing,
+                        Analytics & More!
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/product-design.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Graphics Design</h5>
+                      <p class="card-text">
+                        Learn the fundamentals of graphics design and learn to
+                        design beautiful graphics for web and print.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/img-12.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Project Management</h5>
+                      <p class="card-text">
+                        Envision and lead the product strategy of
+                        industry-defining products, and learn to successfully
+                        bring them to market.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/img-8.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Front End Web Development</h5>
+                      <p class="card-text">
+                        Learn how to build high quality websites and dynamic
+                        applications to create stunning user experiences for the
+                        web.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/img-10.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Back End Web Development</h5>
+                      <p class="card-text">
+                        In this course, you'll start with programming servers
+                        and client-side interfaces, then level up to designing
+                        databases.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="img/img-6.webp"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                      loading="lazy"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Mobile App Development</h5>
+                      <p class="card-text">
+                        Become a mobile app developer with proficiency in all
+                        aspects of mobile applications from design to building
+                        and publishing apps for iOS and Android.
+                      </p>
+                      <!-- <a href="#!" class="card-link"
+                          ><small
+                            ><i class="fa-solid fa-caret-right"></i> Course
+                            Details</small
+                          ></a
+                        > -->
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <!-- End program details / courses section -->
       <!-- Begin sponsor section -->
       <section class="sponsor-section sections mb-5 pt-5 revealUp">
@@ -732,5 +759,23 @@
       <!-- Grid container -->
     </footer>
     <!-- End Footer -->
+    <script>
+      $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
   </body>
 </html>
