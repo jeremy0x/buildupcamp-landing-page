@@ -300,12 +300,12 @@ body {
 
 /* program details/courses section */
 .programs-section .row {
-  padding: 1rem 3rem;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
   .programs-section .row {
-    padding: 1rem 3rem;
+    padding: 1rem;
   }
 }
 
@@ -323,7 +323,7 @@ body {
 
 @media all and (max-width: 575px) {
   .programs-section .row {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
   }
 }
 
