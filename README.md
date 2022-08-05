@@ -22,7 +22,3 @@ This is a landing page for [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-
 - [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
 - [ScrollTrigger](https://greensock.com/scrolltrigger/)
 - [Gsap 3](https://greensock.com/gsap/)
-
-## Lessons Learnt
-- Calm down when you're trying to implement something, don't be in a rush.
-- Take a break or rest if you have to.
