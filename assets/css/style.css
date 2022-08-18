@@ -68,6 +68,14 @@ body {
   .buildUpCamp-logo {
     width: 200px;
   }
+
+  .navbar-collapse ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 320px) {
