@@ -29,6 +29,10 @@ nav ul {
   padding-top: 1rem;
 }
 
+main {
+  padding-top: 5rem !important;
+}
+
 .review {
   max-width: 70%;
   text-align: center !important;
