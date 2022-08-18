@@ -4,9 +4,9 @@
   --black: #191b1d;
   --lighter-black: #58616a;
   --white: #fff;
-  --light-cobalt-blue: #0047ab23;
   --border-radius: 8px;
-  --light-blue: #0181a4;
+  --accent-color: #353f48;
+  --transparent-accent-color: #353f4870;
 }
 
 * {
@@ -23,7 +23,6 @@ body {
   font-family: 'Poppins', sans-serif !important;
   height: 100%;
   background-color: var(--white) !important;
-  background-image: url('../images/bg-desktop.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,7 +35,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 0.5rem 1rem !important;
   font-size: smaller !important;
 }
@@ -202,7 +201,7 @@ body {
   padding: 3rem 3rem;
   width: 80%;
   height: auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .hero-section .hero-right form .form-group input {
@@ -219,7 +218,7 @@ body {
   margin-top: 0.5rem;
   text-transform: uppercase;
   color: var(--white);
-  background-color: var(--light-blue);
+  background-color: var(--accent-color);
   transition: all 0.3s ease-in-out;
   animation: wiggle 2s linear infinite;
 }
@@ -417,6 +416,10 @@ body {
   padding: 0 1.5rem;
 }
 
+.support-item img {
+  filter: invert(1) grayscale(1);
+}
+
 .support-section .support-list .support-item .small-text {
   font-size: 0.85rem;
   color: var(--lighter-black);
@@ -454,7 +457,7 @@ body {
   color: var(--white);
   margin: auto;
   background-size: cover;
-  background-image: url('../images/background.webp');
+  background-color: var(--accent-color);
 }
 
 .next-step-section form {
@@ -469,26 +472,26 @@ body {
   padding: 0.7rem 1.2rem;
   margin-right: 10px;
   font-size: 0.85rem;
-  border: 1px solid var(--light-blue);
-  color: var(--white);
-  background-color: var(--light-cobalt-blue);
+  border: 1px solid var(--white);
+  color: var(--accent-color);
+  background-color: #e8f0fe;
   border-radius: var(--border-radius);
   transition: all 0.3s ease-in-out;
   outline: none;
 }
 
 .next-step-section form input::placeholder {
-  color: var(--white);
+  color: var(--accent-color);
 }
 
 .next-step-section form button {
   width: 30%;
   padding: 0.3rem 1rem;
   font-size: 0.85rem;
-  color: var(--white);
-  background-color: var(--light-blue);
+  color: var(--accent-color);
+  background-color: #e8f0fe;
   border-radius: var(--border-radius);
-  border: 1px solid var(--light-blue);
+  border: 1px solid var(--accent-color);
   transition: all 0.3s ease-in-out;
   animation: wiggle 2s linear infinite;
 }
@@ -496,6 +499,10 @@ body {
 .next-step-section form button:hover {
   opacity: 0.8;
   transform: scale(1.02);
+}
+
+.button-icon {
+  filter: invert(1);
 }
 
 @media screen and (max-width: 1200px) {
