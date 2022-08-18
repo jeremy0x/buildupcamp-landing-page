@@ -14,11 +14,11 @@
     />
 
     <!-- ===> CSS <==== -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="tech-req.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/tech-req.css" />
 
     <!-- ===> Favicon <==== -->
-    <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- ===> Google Fonts <==== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,7 +50,11 @@
     ></script>
 
     <!-- ScrollTrigger -->
-    <script src="scrollTrigger.js" crossorigin="anonymous" defer></script>
+    <script
+      src="./assets/js/scrollTrigger.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
     <!-- Gsap 3 -->
     <script
@@ -60,7 +64,7 @@
     ></script>
 
     <!--  JavaScript -->
-    <script src="script.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -80,12 +84,12 @@
   <body class="d-flex flex-column min-vh-100">
     <!-- Begin header -->
     <header class="mb-3">
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#!">
+          <a class="navbar-brand" href="#">
             <img
               class="buildUpCamp-logo"
-              src="img/buildupcamp-logo.webp"
+              src="./assets/images/buildupcamp-logo.webp"
               alt="BuildUpCamp Logo"
             />
           </a>
@@ -101,18 +105,29 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item px-3">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link text-center"
+                  aria-current="page"
+                  href="index.html"
+                  ><i class="fa-solid fa-house-chimney fa-xl"></i><br /><small
+                    >Home</small
+                  ></a
                 >
               </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="reviews.html">Student Reviews</a>
+              <li class="nav-item mx-3 text-center">
+                <a class="nav-link" href="reviews.html"
+                  ><i class="fa-solid fa-comments fa-xl"></i> <br /><small
+                    >Reviews</small
+                  ></a
+                >
               </li>
-              <li class="nav-item px-3">
-                <a class="nav-link active" href="tech-req.html"
-                  >Tech Requirements</a
+              <li class="nav-item mx-3 text-center">
+                <a class="nav-link active" href="#"
+                  ><i class="fa-solid fa-laptop-code fa-xl"></i><br /><small
+                    >Tech Requirements</small
+                  ></a
                 >
               </li>
             </ul>
@@ -202,7 +217,7 @@
               <h6>
                 <img
                   class="buildUpCamp-logo mb-4"
-                  src="img/buildupcamp-logo.webp"
+                  src="./assets/images/buildupcamp-logo.webp"
                   alt="BuildUpCamp Logo"
                 />
               </h6>
@@ -287,20 +302,20 @@
             <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
               <!-- LinkedIn -->
               <a
-                href="https://www.linkedin.com/company/interllo/"
+                href="https://www.linkedin.com/company/buildup-camp/"
                 class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
                 target="_blank"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <!-- Facebook -->
-              <a
+              <!-- <a
                 href="https://www.facebook.com/interllo/"
                 target="_blank"
                 class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
                 role="button"
                 ><i class="fab fa-facebook-f"></i
-              ></a>
+              ></a> -->
 
               <!-- Twitter -->
               <a
@@ -321,13 +336,13 @@
               ></a>
 
               <!-- GitHub -->
-              <a
+              <!-- <a
                 href="https://github.com/interllo/"
                 target="_blank"
                 class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
                 role="button"
                 ><i class="fab fa-github"></i>
-              </a>
+              </a> -->
             </div>
             <!-- Grid column -->
           </div>

@@ -23,7 +23,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
   height: 100%;
   background-color: var(--white) !important;
-  background-image: url('img/bg-desktop.svg');
+  background-image: url('../images/bg-desktop.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 .buildUpCamp-logo {
-  width: 200px;
+  width: 235px;
   height: auto;
   filter: grayscale(1) invert(1);
   -webkit-filter: grayscale(1) invert(1);
@@ -454,7 +454,7 @@ body {
   color: var(--white);
   margin: auto;
   background-size: cover;
-  background-image: url('img/background.webp');
+  background-image: url('../images/background.webp');
 }
 
 .next-step-section form {
