@@ -482,7 +482,7 @@ body {
   font-size: 0.85rem;
   border: 1px solid var(--white);
   color: var(--accent-color);
-  background-color: #e8f0fe;
+  background-color: #f8f9fa;
   border-radius: var(--border-radius);
   transition: all 0.3s ease-in-out;
   outline: none;
@@ -497,7 +497,7 @@ body {
   padding: 0.3rem 1rem;
   font-size: 0.85rem;
   color: var(--accent-color);
-  background-color: #e8f0fe;
+  background-color: #f8f9fa;
   border-radius: var(--border-radius);
   border: 1px solid var(--accent-color);
   transition: all 0.3s ease-in-out;
