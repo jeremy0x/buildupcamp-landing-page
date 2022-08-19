@@ -222,7 +222,7 @@ body {
 
 .hero-section .hero-right form .form-group button {
   width: 100%;
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 1rem;
   margin-top: 0.5rem;
   text-transform: uppercase;
   color: var(--white);
