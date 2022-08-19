@@ -367,25 +367,11 @@ body {
   width: 100%;
 }
 
-.sponsor-section .sponsor-break {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .sponsor-section .sponsor-break {
-    display: block;
-  }
-}
-
 .sponsor-section .interllo-sponsored img {
-  width: 150px;
+  width: 100px;
   height: auto;
   transition: all 0.5s ease-in-out;
   filter: grayscale(1) invert(1);
-  -webkit-filter: grayscale(1) invert(1);
-  -moz-filter: grayscale(1) invert(1);
-  -o-filter: grayscale(1) invert(1);
-  -ms-filter: grayscale(1) invert(1);
 }
 
 @media screen and (max-width: 480px) {
