@@ -9988,6 +9988,7 @@ html {
 body {
   height: 100%;
   position: relative;
+  margin: 0 !important;
 }
 body:before {
   content: "";
@@ -10085,7 +10086,7 @@ video.bg-video {
   .masthead .masthead-content {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
