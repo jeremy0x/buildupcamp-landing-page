@@ -93,9 +93,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-CW6B3G7K0K");
+      gtag('config', 'G-CW6B3G7K0K');
     </script>
 
     <!-- jquery -->
@@ -256,7 +256,7 @@
       <!-- Begin program details / courses section -->
       <section class="programs-section sections mb-5 pt-5" id="courses">
         <div class="sections-header revealUp mb-3">
-          <h2 class="mb-3">Sign in to the community that best suits you.</h2>
+          <h2 class="mb-3">Find Your Perfect Program</h2>
           <p>
             We have a wide range of tech communities waiting to accept you in.
           </p>
@@ -547,11 +547,10 @@
       >
         <div class="sections-header mb-4">
           <h2>
-            Connect with a tech community of like-minds for unending
-            opportunities.
+            Better Support Along the Way
           </h2>
         </div>
-        <div class="support-list">
+        <div class="support-list support-list-desktop">
           <!-- Item 1 -->
           <div class="support-item">
             <img
@@ -593,10 +592,10 @@
               class="mb-3"
               loading="lazy"
             />
-            <p class="mb-3">Unending connections with like-minds.</p>
+            <p class="mb-3">Unending opportunities</p>
             <p class="small-text">
-              We incorporate the best students into our parent company as well
-              as internship opportunities for the best community member and the
+              We incorporate the best students into our parent company,
+              internship opportunity for the best community member and the
               needed sales skills for our members to survive in the labor
               market.
             </p>
@@ -615,6 +614,116 @@
               Personalized feedback to ensure you are learning the most out of
               your experience.
             </p>
+          </div>
+        </div>
+
+        <!-- Support list for mobile -->
+        <div class="support-list support-list-mobile">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <!-- Item 1 -->
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active support-item"
+                data-bs-interval="3000"
+              >
+                <img
+                  src="./assets/images/24-7-icon.svg"
+                  alt="img"
+                  class="mb-3"
+                  loading="lazy"
+                />
+                <p class="mb-3">
+                  Monthly community meetings.
+                </p>
+                <p class="small-text">
+                  We get to know ourselves at the end of each month to track
+                  learning progress and also to connect better with other
+                  community members.
+                </p>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="carousel-item support-item" data-bs-interval="3500">
+                <img
+                  src="./assets/images/vetted-icon.svg"
+                  alt="img"
+                  class="mb-3"
+                  loading="lazy"
+                />
+                <p class="mb-3">Unending opportunities</p>
+                <p class="small-text">
+                  We incorporate the best students into our parent company,
+                  internship opportunity for the best community member and the
+                  needed sales skills for our members to survive in the labor
+                  market.
+                </p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="carousel-item support-item" data-bs-interval="3500">
+                <img
+                  src="./assets/images/1hr-icon.svg"
+                  alt="img"
+                  class="mb-3"
+                  loading="lazy"
+                />
+                <p class="mb-3">Immediate Response Time</p>
+                <p class="small-text">
+                  Physically available teachers to respond to your questions
+                  immediately.
+                </p>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="carousel-item support-item" data-bs-interval="3500">
+                <img
+                  src="./assets/images/feedback-icon.svg"
+                  alt="img"
+                  class="mb-3"
+                  loading="lazy"
+                />
+                <p class="mb-3">Personalized feedback</p>
+                <p class="small-text">
+                  Personalized feedback to ensure you are learning the most out
+                  of your experience.
+                </p>
+              </div>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <!-- Carousel Indicators -->
           </div>
         </div>
       </section>
@@ -822,7 +931,7 @@
 
     <!-- Owl Carousel Config -->
     <script>
-      $(".owl-carousel").owlCarousel({
+      $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 15,
         nav: true,
