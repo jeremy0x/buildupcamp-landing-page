@@ -22,7 +22,7 @@ This is the BuildUpCamp landing page. [BuildUpCamp](https://jeremiey.github.io/b
 
 **[View Live Preview](https://jeremiey.github.io/buildUpCamp)**
 
-## Dependencies
+## Credits
 - [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - [jquery 3.6.0](https://releases.jquery.com/)
 - [Sweetalert](https://sweetalert.js.org/guides/)
