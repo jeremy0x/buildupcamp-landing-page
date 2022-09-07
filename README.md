@@ -14,13 +14,13 @@
         <img src="https://img.shields.io/twitter/follow/buildup_camp?style=social" /></a>
 </p>
 
-This is the BuildUpCamp landing page. [BuildUpCamp](https://jeremiey.github.io/buildUpCamp), a 12-week intensive bootcamp powered by [Interllo](https://interllo.com), provides you the skills necessary to land a high-paying career in technology.
+This is the BuildUpCamp landing page. [BuildUpCamp](https://jeremiey.github.io/buildUpCamp-landing-page), a 12-week intensive bootcamp powered by [Interllo](https://interllo.com), provides you the skills necessary to land a high-paying career in technology.
 
 ## Preview
 
 ![hero-section](https://user-images.githubusercontent.com/87664239/185499701-f78f1393-06c0-40c7-a223-5856f38708fb.png)
 
-**[View Live Preview](https://jeremiey.github.io/buildUpCamp)**
+**[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
 
 ## Credits
 - [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
