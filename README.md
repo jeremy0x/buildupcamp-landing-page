@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://jeremiey.github.io/buildUpCamp/assets/images/buildupcamp-logo.webp" />
+    <img src="https://jeremiey.github.io/buildUpCamp-landing-page/assets/images/buildupcamp-logo.webp" />
 </p>
 <p align="center">
     <a href="https://github.com/jeremiey/buildUpCamp/blob/main/LICENSE" alt="GitHub license">
@@ -18,7 +18,7 @@ This is the BuildUpCamp landing page. [BuildUpCamp](https://jeremiey.github.io/b
 
 ## Preview
 
-![hero-section](https://user-images.githubusercontent.com/87664239/185499701-f78f1393-06c0-40c7-a223-5856f38708fb.png)
+![hero-section](https://user-images.githubusercontent.com/87664239/188846794-7bd50c69-93fa-41bf-88df-c35711a46999.png)
 
 **[View Live Preview](https://jeremiey.github.io/buildUpCamp-landing-page)**
 
