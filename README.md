@@ -1,13 +1,13 @@
 <p align="center">
-    <img src="https://jeremiey.github.io/buildUpCamp-landing-page/assets/images/buildupcamp-logo.webp" />
+    <img src="https://user-images.githubusercontent.com/87664239/189195560-76f19178-fe44-4f30-8377-1b19f2a1dadc.png" width="60%" height="60%" />
 </p>
 <p align="center">
     <a href="https://github.com/jeremiey/buildUpCamp/blob/main/LICENSE" alt="GitHub license">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
-    <a href="https://github.com/jeremiey/buildUpCamp/blob/main/CONTRIBUTING.md" alt="PRs Welcome">
-        <img src="https://img.shields.io/badge/PRs-welcome-orange" /></a>
-    <a href="https://github.com/jeremiey/buildUpCamp" alt="Repo Size">
-        <img src="https://img.shields.io/github/repo-size/jeremiey/buildUpCamp" /></a>
+    <a href="https://app.netlify.com/sites/buildupcamp/deploys" alt="Netlify Status">
+        <img src="https://api.netlify.com/api/v1/badges/ea27c5c8-151d-455a-9396-8931497a1b36/deploy-status" /></a>
+    <a href="https://github.com/jeremiey/buildUpCamp-landing-page/actions/workflows/pages/pages-build-deployment" alt="pages-build-deployment">
+        <img src="https://github.com/jeremiey/buildUpCamp-landing-page/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
     <a href="" alt="Commit Activity">
         <img src="https://img.shields.io/github/commit-activity/m/jeremiey/buildUpCamp" /></a>
     <a href="https://twitter.com/buildup_camp/" alt="Twitter">
