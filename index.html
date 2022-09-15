@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Made for BuildUpCamp, Coded by jeremiey -->
-  <head>
-    <title>Home | BuildUpCamp</title>
+  <!-- Code by @jeremiey -->
 
-    <!-- Metas -->
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="BuildUpCamp" />
-    <meta name="theme-color" content="#000000" />
-    <meta property="og:image" content="https://i.ibb.co/M6Lx66T/image.png" />
+    <meta name="author" content="jeremiey" />
+    <meta property="og:image" content="https://i.ibb.co/tXxT4My/00-04.jpg" />
+    <meta name="description" content="A tech bootcamp." />
     <meta
-      name="description"
-      content="BuildUpCamp is a 12-week, immersive bootcamp that teaches you the skills you need to get a high-paying job in tech."
+      name="keywords"
+      content="bootcamp, buildupcamp.io, Buildup Camp, tech, e-learning"
     />
-    <meta name="keywords" content="bootcamp, buildup_camp, BuildUpCamp, tech" />
+
+    <title>Buildup Camp</title>
 
     <!-- OwlCarousel CSS -->
     <link
@@ -30,21 +28,17 @@
       integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
       crossorigin="anonymous"
     />
-
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
     <!-- Bootstrap 5.2.0 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -58,31 +52,14 @@
       crossorigin="anonymous"
       defer
     ></script>
-
     <!-- Font Awesome Kit -->
     <script
       src="https://kit.fontawesome.com/d778668bce.js"
       crossorigin="anonymous"
       defer
     ></script>
-
-    <!-- ScrollTrigger -->
-    <script
-      src="./assets/js/scrollTrigger.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
-
-    <!-- gsap 3 -->
-    <script
-      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"
-      crossorigin="anonymous"
-      defer
-    ></script>
-
     <!--  JavaScript -->
-    <script src="./assets/js/script.js" defer></script>
-
+    <script src="./js/script.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -97,171 +74,90 @@
 
       gtag('config', 'G-CW6B3G7K0K');
     </script>
-
     <!-- jquery -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-
     <!-- sweetalert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
     <!-- OwlCarousel JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous"
     ></script>
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
-    <!-- Begin header -->
-    <header class="mb-5">
-      <nav
-        class="autohide navbar navbar-expand-md navbar-light bg-light fixed-top"
-      >
+    <header>
+      <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="buildupcamp.io">
             <img
               class="buildUpCamp-logo"
-              src="./assets/images/buildupcamp-logo.webp"
-              alt="BuildUpCamp Logo"
+              src="./images/logo.svg"
+              alt="BuildupCamp Logo"
             />
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-3">
-                <a
-                  class="nav-link active text-center"
-                  aria-current="page"
-                  href="#"
-                  ><i class="fa-solid fa-house-chimney fa-xl"></i><br /><small
-                    >Home</small
-                  ></a
-                >
-              </li>
-              <li class="nav-item mx-3 text-center">
-                <a class="nav-link" href="reviews.html"
-                  ><i class="fa-solid fa-comments fa-xl"></i> <br /><small
-                    >Reviews</small
-                  ></a
-                >
-              </li>
-              <li class="nav-item mx-3 text-center">
-                <a class="nav-link" href="tech-req.html"
-                  ><i class="fa-solid fa-laptop-code fa-xl"></i><br /><small
-                    >Tech Requirements</small
-                  ></a
-                >
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
-    <!-- End header -->
-    <!-- Begin main content -->
+
     <main>
       <!-- Begin hero section -->
-      <section class="hero-section mb-5 revealUp">
-        <div class="hero-left">
-          <h1 class="mb-3">
-            Get certified in the tech career of your choice in just three
-            months.
+      <section class="hero-section">
+        <div
+          class="hero-left pb-5"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <h1 class="mb-4">
+            Get the skills you need for a tech career in 12 weeks!
           </h1>
-          <p>
-            Join the BuildUpCamp community today and have the access to connect
-            with other like-minds in your career.
+          <p class="mb-4">
+            Enroll in Buildup Camp today, and for about 45 hours a week, you can
+            get the in-demand skills you need to help land a high-paying tech
+            job.
           </p>
+          <button type="button" class="hero-btn">
+            <img
+              src="./images/right-arrow.webp"
+              alt="An arrow pointing to the right"
+            />
+            Enroll Now
+          </button>
         </div>
-        <div class="hero-right">
-          <!-- Hero Section Form -->
-          <form
-            action="https://formsubmit.co/5ad6e90d1d6c9847586699d8ecf9fee2"
-            method="POST"
-            class="form"
-          >
-            <h4 class="sections-header mb-3">Join the Community</h4>
-            <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                class="form-control mb-3"
-                id="name"
-                placeholder="Full Name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                class="form-control mb-3"
-                id="email"
-                placeholder="Email Address"
-                required
-              />
-              <input
-                type="text"
-                name="phone-number"
-                class="form-control mb-3"
-                id="phone"
-                placeholder="Phone Number"
-                minlength="11"
-                maxlength="11"
-                pattern="^[0-9]{11}$"
-                required
-              />
-              <input
-                type="hidden"
-                name="_next"
-                value="https://jeremiey.github.io/buildUpCamp/"
-              />
-              <input
-                type="hidden"
-                name="_subject"
-                value="New applicant on BuildUpCamp!"
-              />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
-              <input
-                type="hidden"
-                name="_autoresponse"
-                value="Your response has been received... You will be replied shortly."
-              />
-              <button type="submit" class="btn" id="submit-btn">
-                <img
-                  src="./assets/images/right-arrow.webp"
-                  alt="An arrow pointing to the right"
-                />
-                Get Started Now
-              </button>
-            </div>
-          </form>
+        <div
+          class="hero-right pb-5"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <!-- Hero Section Image -->
+          <img
+            src="./images/hero-image.svg"
+            alt="Girl with tablet and working process on desktop"
+            class="hero-image"
+          />
         </div>
       </section>
       <!-- End hero section -->
 
       <!-- Begin program details / courses section -->
-      <section class="programs-section sections mb-5 pt-5" id="courses">
-        <div class="sections-header revealUp mb-3">
+      <section class="programs-section sections py-5" id="courses">
+        <div class="sections-header mb-3">
           <h2 class="mb-3">Find Your Perfect Program</h2>
           <p>
-            We have a wide range of tech communities waiting to accept you in.
+            We have a wide range of programs to choose from. Whether you're
+            looking to get started or want to learn more, we have the program
+            that's right for you.
           </p>
         </div>
-        <div class="container-fluid my-5 revealUp">
+        <div class="container-fluid mt-3">
           <div class="row">
             <div class="col-12 m-auto">
               <div class="owl-carousel owl-theme">
@@ -269,23 +165,22 @@
                 <div class="item">
                   <div class="card border-0 h-100 shadow">
                     <img
-                      src="./assets/images/img-5.webp"
+                      src="./images/fullstack.jpg"
                       class="card-img-top img-fluid"
                       alt="img"
-                      loading="lazy"
                     />
                     <div class="card-body">
                       <h5 class="card-title">Full Stack Web Development</h5>
                       <p class="card-text">
-                        Learn the basic foundation of modern web application
-                        designs and how to creatively craft them for human use.
+                        Learn to design and develop modern web applications that
+                        form the foundation for what people use everyday.
                       </p>
-                      <!-- <a href="#!" class="card-link"
+                      <a href="#!" class="card-link"
                         ><small
                           ><i class="fa-solid fa-caret-right"></i> Course
                           Details</small
                         ></a
-                      > -->
+                      >
                     </div>
                     <div class="card-footer">
                       <small class="text-muted"
@@ -299,178 +194,23 @@
                 <div class="item mb-4">
                   <div class="card border-0 h-100 shadow">
                     <img
-                      src="./assets/images/uiux.webp"
+                      src="./images/uiux.jpg"
                       class="card-img-top img-fluid"
                       alt="img"
-                      loading="lazy"
                     />
                     <div class="card-body">
                       <h5 class="card-title">UI/UX Design</h5>
                       <p class="card-text">
-                        We will expose you to the core tools of the user
-                        interface of web applications and the needed knowledge
-                        to stand out in the world of user experience.
+                        Design the interface of web applications, and learn to
+                        use the tools you need to create a beautiful user
+                        experience.
                       </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted"
-                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
                       >
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Digital Marketing -->
-                <div class="item">
-                  <div class="card border-0 h-100 shadow">
-                    <img
-                      src="./assets/images/digital-marketing.webp"
-                      class="card-img-top img-fluid"
-                      alt="img"
-                      loading="lazy"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Digital Marketing</h5>
-                      <p class="card-text">
-                        Learn how to use various tools and software to help
-                        businesses reach their target audience from marketing
-                        strategy, SMM, Email Marketing, Ads, SEO, and others.
-                      </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted"
-                        ><i class="fa-regular fa-calendar"></i> 3 months</small
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Graphics Design -->
-                <div class="item">
-                  <div class="card border-0 h-100 shadow">
-                    <img
-                      src="./assets/images/graphic-design.webp"
-                      class="card-img-top img-fluid"
-                      alt="img"
-                      loading="lazy"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Graphics Design</h5>
-                      <p class="card-text">
-                        Learn the fundamentals of graphics design and learn to
-                        design beautiful graphics for web and print.
-                      </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted"
-                        ><i class="fa-regular fa-calendar"></i> 3 months</small
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Project Management -->
-                <div class="item">
-                  <div class="card border-0 h-100 shadow">
-                    <img
-                      src="./assets/images/img-12.webp"
-                      class="card-img-top img-fluid"
-                      alt="img"
-                      loading="lazy"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Project Management</h5>
-                      <p class="card-text">
-                        Get the right knowledge of project management starting
-                        from project acquisition to project delivery. We expose
-                        our students to real-life projects for better project
-                        management experience.
-                      </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted"
-                        ><i class="fa-regular fa-calendar"></i> 3 months</small
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Frontend Web Development -->
-                <div class="item">
-                  <div class="card border-0 h-100 shadow">
-                    <img
-                      src="./assets/images/img-8.webp"
-                      class="card-img-top img-fluid"
-                      alt="img"
-                      loading="lazy"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Front End Web Development</h5>
-                      <p class="card-text">
-                        Learn how to build modern websites and get exposed to
-                        applications to create an amazing user experience with
-                        codes.
-                      </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted"
-                        ><i class="fa-regular fa-calendar"></i> 3 months</small
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Backend Web Development -->
-                <div class="item">
-                  <div class="card border-0 h-100 shadow">
-                    <img
-                      src="./assets/images/img-10.webp"
-                      class="card-img-top img-fluid"
-                      alt="img"
-                      loading="lazy"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Back End Web Development</h5>
-                      <p class="card-text">
-                        Learn how to design programming servers and client-side
-                        interfaces as well as databases.
-                      </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
                     </div>
                     <div class="card-footer">
                       <small class="text-muted"
@@ -484,10 +224,9 @@
                 <div class="item">
                   <div class="card border-0 h-100 shadow">
                     <img
-                      src="./assets/images/img-6.webp"
+                      src="./images/app-development.png"
                       class="card-img-top img-fluid"
                       alt="img"
-                      loading="lazy"
                     />
                     <div class="card-body">
                       <h5 class="card-title">Mobile App Development</h5>
@@ -496,12 +235,161 @@
                         development process for building and publishing apps for
                         IOS and Android.
                       </p>
-                      <!-- <a href="#!" class="card-link"
-                          ><small
-                            ><i class="fa-solid fa-caret-right"></i> Course
-                            Details</small
-                          ></a
-                        > -->
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Project Management -->
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="./images/project-management.jpg"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Project Management</h5>
+                      <p class="card-text">
+                        Envision and lead the product strategy of
+                        industry-defining products, and learn to successfully
+                        bring them to market.
+                      </p>
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Graphics Design -->
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="./images/graphic-design.jpg"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Graphics Design</h5>
+                      <p class="card-text">
+                        Learn the fundamentals of graphics design and learn to
+                        design beautiful graphics for web and print.
+                      </p>
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Frontend Web Development -->
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="./images/frontend.png"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Frontend Web Development</h5>
+                      <p class="card-text">
+                        Learn how to build high quality websites and dynamic
+                        applications to create stunning user experiences for the
+                        web.
+                      </p>
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Backend Web Development -->
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="./images/backend.jpg"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Backend Web Development</h5>
+                      <p class="card-text">
+                        In this course, you'll start with programming servers
+                        and client-side interfaces, then level up to designing
+                        databases.
+                      </p>
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"
+                        ><i class="fa-regular fa-calendar"></i> 3 months</small
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Digital Marketing -->
+                <div class="item">
+                  <div class="card border-0 h-100 shadow">
+                    <img
+                      src="./images/digital-marketing.jpg"
+                      class="card-img-top img-fluid"
+                      alt="img"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">
+                        Master Digital Marketing Strategy, Social Media
+                        Marketing, SEO, YouTube, Email, Facebook Marketing,
+                        Analytics & More!
+                      </p>
+                      <a href="#!" class="card-link"
+                        ><small
+                          ><i class="fa-solid fa-caret-right"></i> Course
+                          Details</small
+                        ></a
+                      >
                     </div>
                     <div class="card-footer">
                       <small class="text-muted"
@@ -518,7 +406,7 @@
       <!-- End program details / courses section -->
 
       <!-- Begin sponsor section -->
-      <section class="sponsor-section sections mb-5 pt-5 revealUp">
+      <section class="sponsor-section sections py-5">
         <div class="sections-header mb-3">
           <h2 class="mb-3">We are powered by industry</h2>
           <p>
@@ -528,12 +416,11 @@
         </div>
         <div class="interllo-sponsored">
           Powered by
-          <a href="https://interllo.com" target="_blank">
+          <a href="https://interllo.com" target="_blank" rel="noopener">
             <img
               class="img-fluid ms-3"
-              src="./assets/images/interllo.webp"
+              src="./images/interllo-dark.png"
               alt="interllo"
-              loading="lazy"
             />
           </a>
         </div>
@@ -541,42 +428,23 @@
       <!-- End sponsor section -->
 
       <!-- Begin support offered section -->
-      <section
-        class="support-section sections mb-5 pt-5 revealUp"
-        id="features"
-      >
-        <div class="sections-header mb-4">
-          <h2>
-            Better Support Along the Way
-          </h2>
+      <section class="support-section sections py-5" id="features">
+        <div class="sections-header mb-md-4">
+          <h2>Better Support Along the Way</h2>
         </div>
         <div class="support-list support-list-desktop">
           <!-- Item 1 -->
           <div class="support-item">
-            <img
-              src="./assets/images/24-7-icon.svg"
-              alt="img"
-              class="mb-3"
-              loading="lazy"
-            />
-            <p class="mb-3">
-              Monthly community meetings to track work progress.
-            </p>
+            <img src="./images/24-7-icon.svg" alt="img" class="mb-3" />
+            <p class="mb-3">24/7 Power & Internet Access</p>
             <p class="small-text">
-              We get to know ourselves at the end of each month to track
-              learning progress and also to connect better with other community
-              members.
+              Constant power supply and internet access for all students.
             </p>
           </div>
 
           <!-- Item 2 -->
           <div class="support-item">
-            <img
-              src="./assets/images/1hr-icon.svg"
-              alt="img"
-              class="mb-3"
-              loading="lazy"
-            />
+            <img src="./images/1hr-icon.svg" alt="img" class="mb-3" />
             <p class="mb-3">Immediate Response Time</p>
             <p class="small-text">
               Physically available teachers to respond to your questions
@@ -586,29 +454,17 @@
 
           <!-- Item 3 -->
           <div class="support-item">
-            <img
-              src="./assets/images/vetted-icon.svg"
-              alt="img"
-              class="mb-3"
-              loading="lazy"
-            />
-            <p class="mb-3">Unending opportunities</p>
+            <img src="./images/vetted-icon.svg" alt="img" class="mb-3" />
+            <p class="mb-3">Physical Facilities</p>
             <p class="small-text">
-              We incorporate the best students into our parent company,
-              internship opportunity for the best community member and the
-              needed sales skills for our members to survive in the labor
-              market.
+              Physical facilities to ensure your learning experience is as
+              comfortable as possible.
             </p>
           </div>
 
           <!-- Item 4 -->
           <div class="support-item">
-            <img
-              src="./assets/images/feedback-icon.svg"
-              alt="img"
-              class="mb-3"
-              loading="lazy"
-            />
+            <img src="./images/feedback-icon.svg" alt="img" class="mb-3" />
             <p class="mb-3">Personalized feedback</p>
             <p class="small-text">
               Personalized feedback to ensure you are learning the most out of
@@ -618,6 +474,7 @@
         </div>
 
         <!-- Support list for mobile -->
+        <!-- ! Yet to check out the responsiveness -->
         <div class="support-list support-list-mobile">
           <div
             id="carouselExampleDark"
@@ -630,47 +487,16 @@
                 class="carousel-item active support-item"
                 data-bs-interval="3000"
               >
-                <img
-                  src="./assets/images/24-7-icon.svg"
-                  alt="img"
-                  class="mb-3"
-                  loading="lazy"
-                />
-                <p class="mb-3">
-                  Monthly community meetings.
-                </p>
+                <img src="./images/24-7-icon.svg" alt="img" class="mb-3" />
+                <p class="mb-3">24/7 Power & Internet Access</p>
                 <p class="small-text">
-                  We get to know ourselves at the end of each month to track
-                  learning progress and also to connect better with other
-                  community members.
-                </p>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="carousel-item support-item" data-bs-interval="3500">
-                <img
-                  src="./assets/images/vetted-icon.svg"
-                  alt="img"
-                  class="mb-3"
-                  loading="lazy"
-                />
-                <p class="mb-3">Unending opportunities</p>
-                <p class="small-text">
-                  We incorporate the best students into our parent company,
-                  internship opportunity for the best community member and the
-                  needed sales skills for our members to survive in the labor
-                  market.
+                  Constant power supply and internet access for all students.
                 </p>
               </div>
 
               <!-- Item 2 -->
               <div class="carousel-item support-item" data-bs-interval="3500">
-                <img
-                  src="./assets/images/1hr-icon.svg"
-                  alt="img"
-                  class="mb-3"
-                  loading="lazy"
-                />
+                <img src="./images/1hr-icon.svg" alt="img" class="mb-3" />
                 <p class="mb-3">Immediate Response Time</p>
                 <p class="small-text">
                   Physically available teachers to respond to your questions
@@ -678,14 +504,19 @@
                 </p>
               </div>
 
+              <!-- Item 3 -->
+              <div class="carousel-item support-item" data-bs-interval="3500">
+                <img src="./images/vetted-icon.svg" alt="img" class="mb-3" />
+                <p class="mb-3">Physical Facilities</p>
+                <p class="small-text">
+                  Physical facilities to ensure your learning experience is as
+                  comfortable as possible.
+                </p>
+              </div>
+
               <!-- Item 4 -->
               <div class="carousel-item support-item" data-bs-interval="3500">
-                <img
-                  src="./assets/images/feedback-icon.svg"
-                  alt="img"
-                  class="mb-3"
-                  loading="lazy"
-                />
+                <img src="./images/feedback-icon.svg" alt="img" class="mb-3" />
                 <p class="mb-3">Personalized feedback</p>
                 <p class="small-text">
                   Personalized feedback to ensure you are learning the most out
@@ -695,7 +526,7 @@
             </div>
 
             <!-- Carousel Indicators -->
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
               <button
                 type="button"
                 data-bs-target="#carouselExampleDark"
@@ -722,7 +553,7 @@
                 data-bs-slide-to="3"
                 aria-label="Slide 4"
               ></button>
-            </div>
+            </div> -->
             <!-- Carousel Indicators -->
           </div>
         </div>
@@ -732,7 +563,7 @@
       <!-- Begin next-step section -->
       <section class="next-step-section sections">
         <div class="sections-header">
-          <h2 class="mb-5">Join The BuildUpCamp Community Today!</h2>
+          <h2 class="mb-5">Join The Buildup Camp Community Today!</h2>
         </div>
         <form
           action="https://formsubmit.co/5ad6e90d1d6c9847586699d8ecf9fee2"
@@ -744,28 +575,24 @@
             name="email"
             placeholder="Email Address"
             required
+            class="name"
           />
           <input
             type="hidden"
             name="_next"
-            value="https://jeremiey.github.io/buildUpCamp/"
+            value="https://buildupcamp.netlify.app"
           />
           <input
             type="hidden"
             name="_subject"
-            value="New applicant on BuildUpCamp!"
+            value="New applicant on Buildup Camp Landing Page!"
           />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="table" />
-          <input
-            type="hidden"
-            name="_autoresponse"
-            value="Your response has been received... You will be replied shortly."
-          />
-          <button type="submit" class="lets-go" id="submit-btn">
+          <button type="submit" class="lets-go submit-btn">
             <img
               class="button-icon"
-              src="./assets/images/right-arrow.webp"
+              src="./images/right-arrow.webp"
               alt="An arrow pointing to the right"
             />
             Let's go
@@ -774,180 +601,68 @@
       </section>
       <!-- End next-step section -->
     </main>
-    <!-- End main content -->
 
-    <!-- Footer -->
-    <footer
-      class="text-center text-lg-start text-black"
-      style="background-color: #f8f9fa"
-    >
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Links -->
-        <section>
-          <!--Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
-              <h6>
-                <img
-                  class="buildUpCamp-logo"
-                  src="./assets/images/buildupcamp-logo.webp"
-                  alt="BuildUpCamp Logo"
-                />
-              </h6>
-              <p class="footer-buc-description mt-4">
-                BuildUpCamp is a 12-week, immersive bootcamp that teaches you
-                the skills you need to get a high-paying job in tech.
-              </p>
-            </div>
-            <!-- Grid column -->
+    <footer class="text-center text-lg-start text-white">
+      <hr class="mx-3" />
 
-            <hr class="w-50 clearfix d-md-none mx-auto" />
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 mb-3">
-              <h6 class="font-weight-bold mb-4">Company</h6>
-              <p>
-                <a href="https://interllo.com" class="text-black">About</a>
-              </p>
-              <p>
-                <a href="coming-soon.html" class="text-black">Blog</a>
-              </p>
-              <p>
-                <a href="coming-soon.html" class="text-black"
-                  >Become an Instructor</a
-                >
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <hr class="w-50 clearfix d-md-none mx-auto" />
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 mb-3">
-              <h6 class="font-weight-bold mb-4">Support</h6>
-              <p>
-                <a href="coming-soon.html" class="text-black">Contact us</a>
-              </p>
-              <p>
-                <a href="coming-soon.html" class="text-black">Help and FAQ</a>
-              </p>
-              <p>
-                <a href="tech-req.html" class="text-black">Tech Requirements</a>
-              </p>
-            </div>
-
-            <!-- Grid column -->
-            <hr class="w-50 clearfix d-md-none mx-auto" />
-
-            <!-- Contact Details -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
-              <h6 class="font-weight-bold mb-4">Contact</h6>
-              <p>
-                <i class="fas fa-envelope me-2"></i>
-                <a href="mailto:tobi-farinde@interllo.com" class="text-black">
-                  tobi-farinde@interllo.com</a
-                >
-              </p>
-              <p>
-                <i class="fas fa-phone me-2"></i>
-                <a href="tel:+2348123865013" class="text-black">
-                  +234 812 386 5013</a
-                >
-              </p>
-            </div>
-            <!-- Contact Details -->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-
-        <hr class="my-3" />
-
-        <!-- Section: Copyright -->
-        <section class="p-3 pt-0">
-          <div class="row d-flex align-items-center">
-            <!-- Grid column -->
-            <div class="col-md-7 col-lg-8 text-center text-md-start">
-              <div class="p-3">© 2022 BuildUpCamp. All rights reserved.</div>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-              <!-- LinkedIn -->
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2022 Developed by
               <a
-                href="https://www.linkedin.com/company/buildup-camp/"
-                class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
+                href="https://github.com/jeremiey"
+                rel="noopener"
                 target="_blank"
+                class="text-decoration-none text-white"
+                >@jeremiey.</a
               >
-                <i class="fab fa-linkedin"></i>
-              </a>
-
-              <!-- Facebook -->
-              <!-- <a
-                href="https://www.facebook.com/interllo/"
-                target="_blank"
-                class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
-                role="button"
-                ><i class="fab fa-facebook-f"></i
-              ></a> -->
-
-              <!-- Twitter -->
-              <a
-                href="https://twitter.com/buildup_camp/"
-                target="_blank"
-                class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
-                role="button"
-                ><i class="fab fa-twitter"></i
-              ></a>
-
-              <!-- Instagram -->
-              <a
-                href="https://www.instagram.com/buildup_camp/"
-                target="_blank"
-                class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
-                role="button"
-                ><i class="fab fa-instagram"></i
-              ></a>
-
-              <!-- GitHub -->
-              <!-- <a
-                href="https://github.com/interllo/"
-                target="_blank"
-                class="text-black btn btn-outline-light rounded-circle btn-floating m-1"
-                role="button"
-                ><i class="fab fa-github"></i>
-              </a> -->
+              All rights reserved.
             </div>
-            <!-- Grid column -->
           </div>
-        </section>
-        <!-- Section: Copyright -->
-      </div>
-      <!-- Grid container -->
-    </footer>
-    <!-- End Footer -->
+          <!-- Grid column -->
 
-    <!-- Owl Carousel Config -->
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 15,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
-    <!-- Owl Carousel Config -->
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/company/buildupcamp.io/"
+              class="text-white btn btn-floating m-1"
+              target="_blank"
+              rel="noopener"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a
+              href="https://twitter.com/buildupcamp.io/"
+              target="_blank"
+              class="text-white btn btn-floating m-1"
+              role="button"
+              rel="noopener"
+              title="Follow us on Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/buildupcamp.io/"
+              target="_blank"
+              class="text-white btn btn-floating m-1"
+              role="button"
+              rel="noopener"
+              title="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </footer>
   </body>
 </html>
