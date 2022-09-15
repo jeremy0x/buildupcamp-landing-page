@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="https://user-images.githubusercontent.com/87664239/189195560-76f19178-fe44-4f30-8377-1b19f2a1dadc.png" width="55%" height="55%" />
+    <img src="https://user-images.githubusercontent.com/87664239/190518519-c10fc625-7524-4f74-acf2-7dd40748d152.svg" width="55%" height="55%" />
 </p>
 <p align="left">
     <a href="https://github.com/jeremiey/buildUpCamp/blob/main/LICENSE" title="License">
