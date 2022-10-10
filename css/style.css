@@ -4,7 +4,7 @@
   --black: #191b1d;
   --lighter-black: #58616a;
   --white: #fff;
-  --light-blue: #c9f0ffa4;
+  --light-blue: #c9f0ff33;
   --border-radius: 8px;
   --accent-color: #0d1f43;
 }
@@ -17,7 +17,7 @@
 
 body {
   font-size: 16px;
-  font-family: 'DM Sans', sans-serif !important;
+  font-family: "DM Sans", sans-serif !important;
   line-height: 1.5;
   width: 100%;
   max-width: 1440px;
@@ -27,7 +27,7 @@ body {
   background-color: var(--white);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
   scroll-behavior: smooth;
-  transition: all 1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 /* navbar */
@@ -130,7 +130,7 @@ body {
   padding-inline: 5rem;
   padding-block: 5rem;
   color: var(--accent-color);
-  background-image: url('../images/bg-desktop.svg');
+  background-image: url("../images/bg-desktop.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -475,6 +475,10 @@ body {
   outline: none;
 }
 
+.next-step-section form input:focus {
+  outline: 3px solid var(--light-blue);
+}
+
 .next-step-section form input::placeholder {
   color: var(--accent-color);
 }
@@ -566,7 +570,7 @@ footer a {
 }
 
 footer a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
