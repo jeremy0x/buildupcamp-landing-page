@@ -1,5 +1,5 @@
 <p align="left">
-    <a href="https://github.com/jeremiey/buildUpCamp/blob/main/LICENSE" title="License">
+    <a href="https://github.com/jeremy0x/BuildupCamp-landing-page/blob/main/LICENSE" title="License">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a></a>
     <a href="https://twitter.com/buildupcampio/" alt="Twitter followers">
         <img src="https://img.shields.io/twitter/follow/buildupcampio?style=social" alt="Twitter followers" /></a>
