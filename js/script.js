@@ -35,4 +35,6 @@ document.querySelector('.hero-btn').addEventListener('click', function () {
 });
 
 // Initialize AOS
-AOS.init();
+AOS.init({
+  startEvent: "load",
+});
