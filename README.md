@@ -1,16 +1,9 @@
-<a href="https://github.com/jeremy0x/BuildupCamp-landing-page/blob/main/LICENSE" title="License">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
-</a>
-
-<br>
-<br>
-
 <p align="left">
-    <img src="https://user-images.githubusercontent.com/87664239/189195560-76f19178-fe44-4f30-8377-1b19f2a1dadc.png" width="55%" height="55%" />
+    <img src="https://user-images.githubusercontent.com/87664239/189195560-76f19178-fe44-4f30-8377-1b19f2a1dadc.png" width="40%" />
     <!-- <img src="https://user-images.githubusercontent.com/87664239/190518519-c10fc625-7524-4f74-acf2-7dd40748d152.svg" width="55%" height="55%" /> -->
 </p>
 
-Sample landing page for a tech bootcamp.
+A simple landing page for a tech bootcamp built with HTML, CSS, Bootstrap with some other cool libraries.
 
 ## Preview
 
